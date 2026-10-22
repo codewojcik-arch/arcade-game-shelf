@@ -15,37 +15,15 @@
 
 ## Zmień bibliotekę Steam w część swojego setupu
 
-ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Towarzyszyć Ci może Czorcik — kot autora — szczur, smok, fretka, gekon lub lis — czasem zrzuci pudełko, które po chwili samo wróci na miejsce.
+ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Towarzyszyć Ci może nowy srebrny kot, szczur, fretka lub gekon — czasem zrzuci pudełko, które po chwili samo wróci na miejsce.
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
-## 0.6.4 — płynniejszy chód wszystkich petów
+## 0.6.5 — nowy srebrny kot
 
-- Nowy renderer chodu dla kota, szczura, smoka, fretki, gekona i lisa.
-- Stały obszar rysowania oraz wyrównanie tułowia i grzbietu usuwają skoki położenia między klatkami.
-- Pozycje pośrednie wyliczane z ruchu sylwetki; ograniczone podwójne kontury łap.
-- Wygładzanie krawędzi, zachowane drobne krawędzie futra i delikatne wyostrzenie przy powiększeniu.
-- Renderowanie dopasowane do DPI; obliczenia ruchu wykonywane w tle.
-- Przewijanie widocznej półki nie restartuje już animacji zwierzaka.
+Nowy realistyczny kot w srebrne pręgi, z bursztynowymi oczami. Nowe pełne pozy kota do chodu i delikatnego strącania gry — bez osobnego wyginania łap. Kot śpi, budzi się, ziewa i strąca pudełka. W menu pozostają kot, szczur, fretka i gekon.
 
-## 0.6.3 — większe pety i budzenie Czorcika
-
-- Czorcik jest większy o 85%, a pozostałe zwierzaki o 25%; skala nadal dopasowuje się do okna.
-- 16 kolejnych klatek chodu kota zsynchronizowanych z przebytą odległością.
-- Osiem klatek ruchu łapki: uniesienie, wyciągnięcie, dotknięcie pudełka i cofnięcie.
-- Automatyczna sekwencja budzenia: podniesienie głowy, siad i ziewnięcie, potem spoczynek.
-- Stała pozycja tułowia podczas animacji łapki i zatrzymanie animacji po otwarciu gry.
-
-<img src="docs/screenshots/czorcik-yawn.png" alt="Większy Czorcik ziewa po obudzeniu" width="650">
-
-## 0.6.2 — Czorcik na półce
-
-- Nowy realistyczny kot Czorcik, wzorowany na zdjęciach pupila autora, zastępuje poprzedniego kota.
-- Czarne puszyste futro z brązowymi refleksami, charakterystyczne oczy i duży ogon.
-- 16 póz: osiem faz chodu, siadanie, sen, dwie fazy strącania łapką, mycie, rozglądanie, przeciąganie i języczek.
-- Chód zsynchronizowany z odległością, stała skala klatek i pełne sylwetki bez przycinania.
-
-<img src="docs/screenshots/czorcik.png" alt="Czorcik — kot autora na półce ARCADE" width="650">
+<img src="docs/screenshots/silver-cat.png" alt="Nowy srebrny kot w ARCADE" width="650">
 
 ## 0.6.1 — poprawione klikanie gier
 
@@ -81,7 +59,7 @@ Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przod
 
 ## Nowości w 0.4.0: instalator, Aurora Circuit i naturalniejszy chód
 
-Pobierz **ARCADE-Setup-0.6.4-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.6.5-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
@@ -95,11 +73,9 @@ Większe pudełka i dopasowane do długości tytułów napisy. Pety skalują si�
 
 <img src="docs/screenshots/responsive.png" alt="Większe pudełka i pet dopasowane do rozmiaru szafki" width="650">
 
-## Nowe pety w wersji 0.2.0
+## Zwierzaki na półce
 
-Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma 16 póz, w tym osiem klatek chodu. Wybór: **ikona obok zegara → Pet na półce**.
-
-<table><tr><td><strong>Smok</strong><br><img src="docs/screenshots/dragon.png" alt="Smok rozkładający skrzydła na półce" width="290"></td><td><strong>Fretka</strong><br><img src="docs/screenshots/ferret.png" alt="Fretka na półce" width="290"></td></tr><tr><td><strong>Gekon</strong><br><img src="docs/screenshots/gecko.png" alt="Gekon na półce" width="290"></td><td><strong>Lis</strong><br><img src="docs/screenshots/fox.png" alt="Lis z puszystym ogonem na półce" width="290"></td></tr></table>
+Kot, szczur, fretka i gekon. Wybór: **ikona obok zegara → Pet na półce**.
 
 ## Co potrafi ARCADE?
 
@@ -111,17 +87,17 @@ Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma
 | Grzbiety z tytułami | Gry ustawione krawędzią pudełka; kliknięcie otwiera pudełko i animację płyty. |
 | Gamingowy wygląd | Motyw Night Shift: grafit, ciemne drewno oraz turkusowo-fioletowe światło. Dostępne także Aurora Circuit, motyw realistyczny i klasyczny. |
 | Klimat lat 90. | Animowane pudełko, wyciąganie płyty i wkładanie jej do napędu retro PC. |
-| Sześć petów | Kot, szczur, smok, fretka, gekon lub lis: spacer, odpoczynek i okazjonalne strącanie pudełka. |
+| Cztery pety | Kot, szczur, fretka lub gekon: spacer, odpoczynek i okazjonalne strącanie pudełka. |
 | Wygodny pulpit | Menu obok zegara, opcjonalny autostart i tryb zawsze na wierzchu. |
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.6.4-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.6.5-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
 4. Ustawienia, motywy, pety i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.6.4-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.6.5-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 
@@ -137,7 +113,7 @@ Przycisk **Zainstaluj w Steam** otwiera instalację niezainstalowanej gry w klie
 
 ## Mały towarzysz na półce
 
-Menu **Pet na półce** pozwala wybrać kota, szczura, smoka, fretkę, gekona, lisa lub wyłączyć zwierzaka. Nowe postacie mają po osiem klatek spaceru, sen, pielęgnację, rozglądanie, przeciąganie i strącanie przednią łapką. Smok dodatkowo rozkłada skrzydła i wypuszcza delikatny dymek, fretka węszy, gekon unosi łapkę, a lis siada z ogonem owiniętym wokół łap. Kot strąca pudełko przednią łapką; pudełko wraca samo, bez zmiany zapisanego układu i bez ingerencji w pliki gry. Systemowe ograniczenie ruchu wyłącza psoty.
+Menu **Pet na półce** pozwala wybrać kota, szczura, fretkę, gekona lub wyłączyć zwierzaka. Nowe postacie mają po osiem klatek spaceru, sen, pielęgnację, rozglądanie, przeciąganie i strącanie przednią łapką. Smok dodatkowo rozkłada skrzydła i wypuszcza delikatny dymek, fretka węszy, gekon unosi łapkę, a lis siada z ogonem owiniętym wokół łap. Kot strąca pudełko przednią łapką; pudełko wraca samo, bez zmiany zapisanego układu i bez ingerencji w pliki gry. Systemowe ograniczenie ruchu wyłącza psoty.
 
 <img src="docs/screenshots/cat-paw.png" alt="Kot na półce podczas strącania pudełka łapką" width="420">
 

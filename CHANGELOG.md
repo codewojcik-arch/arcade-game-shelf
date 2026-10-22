@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.6.5 — nowy kot i mniejszy wybór petów
+
+- Usunięto smoka, Czorcika i lisa z wyboru zwierzaków oraz paczki aplikacji.
+- Dodano nowego realistycznego srebrnego kota w pręgi z bursztynowymi oczami.
+- Nowy kot porusza się pełnymi pozami: 24 klatki chodu, osobne pozy delikatnego strącania i ziewania.
+- Dla kota wyłączono deformowanie oraz mieszanie łap między obrazkami.
+- Zachowano sen, budzenie i ziewanie nowego kota.
+- Dostępne pety: kot, szczur, fretka i gekon; poprzedni wybór usuniętego peta przełącza się na kota.
+
 ## 0.6.4 — płynniejszy chód wszystkich petów
 
 - Nowy renderer chodu dla kota, szczura, smoka, fretki, gekona i lisa.
