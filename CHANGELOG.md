@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.6.2 — Czorcik na półce
+
+- Nowy realistyczny kot Czorcik, wzorowany na zdjęciach pupila autora, zastępuje poprzedniego kota.
+- Czarne puszyste futro z brązowymi refleksami, charakterystyczne oczy i duży ogon.
+- 16 póz: osiem faz chodu, siadanie, sen, dwie fazy strącania łapką, mycie, rozglądanie, przeciąganie i języczek.
+- Chód zsynchronizowany z odległością, stała skala klatek i pełne sylwetki bez przycinania.
+
 ## 0.6.1 — poprawione klikanie gier
 
 - Kliknięcie pudełka otwiera animację również przy drobnym ruchu myszy.
