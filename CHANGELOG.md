@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.6.11 — priorytet klikania pudełek przed petem
+
+- Wciśnięcie myszy na grze natychmiast wstrzymuje peta, także podczas budzenia i przygotowania strącenia.
+- Obsługa przeciągania przez przechwycenie wskaźnika wstrzymuje peta tak samo jak przeciąganie systemowe.
+- Wszystkie elementy grafiki peta i efektów przepuszczają kliknięcia do półki.
+- Dodano testy myszy podczas chodu, snu, budzenia i próby strącenia pudełka.
+
 ## 0.6.10 — pełnoekranowe pudełko i napęd
 
 - Widok uruchamiania wypełnia całe okno aplikacji.
