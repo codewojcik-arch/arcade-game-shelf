@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.6.0 — aktualizowanie z GitHuba
+
+- Sprawdzanie stabilnych wydań przy starcie, co godzinę i po wybudzeniu.
+- Kafelek z nową wersją, zmianami i postępem pobierania; znika wraz z listą zmian po aktualizacji.
+- Pobieranie instalatora, weryfikacja SHA-256 i rozmiaru, instalacja w obecnym folderze i ponowne uruchomienie.
+- Zachowanie ustawień, autostartu i skrótów; ponowienie po błędach.
+- Menu Sprawdź aktualizacje, bez konta GitHub i bez automatycznej instalacji bez kliknięcia.
+- Testy wersji, pobierania, uszkodzonych plików, znikania kafelka i instalacji w miejscu.
+
 ## 0.5.0 — nadruki płyt i wnętrze napędu
 
 - Okładka wybranej gry drukowana na płycie w czterech etapach sceny, z otworem i plastikowym rantem.
