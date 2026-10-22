@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.6.12 — stabilny obszar klikania pudełek
+
+- Naprawiono kliknięcia przy dolnej krawędzi pudełka: efekt najechania nie podnosi już przycisku spod kursora.
+- Zachowano podświetlenie, obrys i rozjaśnienie gry w każdym motywie.
+- Kliknięcie działa bez konieczności przenoszenia pudełka na inną półkę.
+- Dodano testy górnej i dolnej krawędzi oraz środka pudełek na każdej półce w motywach Realistycznym, Gaming i Aurora.
+
 ## 0.6.11 — priorytet klikania pudełek przed petem
 
 - Wciśnięcie myszy na grze natychmiast wstrzymuje peta, także podczas budzenia i przygotowania strącenia.
