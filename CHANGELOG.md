@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.6.3 — większe pety i budzenie Czorcika
+
+- Czorcik jest większy o 85%, a pozostałe zwierzaki o 25%; skala nadal dopasowuje się do okna.
+- 16 kolejnych klatek chodu kota zsynchronizowanych z przebytą odległością.
+- Osiem klatek ruchu łapki: uniesienie, wyciągnięcie, dotknięcie pudełka i cofnięcie.
+- Automatyczna sekwencja budzenia: podniesienie głowy, siad i ziewnięcie, potem spoczynek.
+- Stała pozycja tułowia podczas animacji łapki i zatrzymanie animacji po otwarciu gry.
+
 ## 0.6.2 — Czorcik na półce
 
 - Nowy realistyczny kot Czorcik, wzorowany na zdjęciach pupila autora, zastępuje poprzedniego kota.
