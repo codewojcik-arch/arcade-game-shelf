@@ -1,5 +1,10 @@
 # Historia zmian
 
+## 0.6.7 — natychmiastowy powrót pudełka
+
+- Po upadku do dołu okna i odbiciach pudełko od razu pojawia się z powrotem na półce.
+- Usunięto animację cofania w górę; pozycja pudełka pozostaje zachowana.
+
 ## 0.6.6 — pudełka spadają do samego dołu
 
 - Pudełko strącone przez zwierzaka spada aż do dolnej krawędzi okna, niezależnie od półki i rozdzielczości.
