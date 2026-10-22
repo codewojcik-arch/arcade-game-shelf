@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.5.0 — nadruki płyt i wnętrze napędu
+
+- Okładka wybranej gry drukowana na płycie w czterech etapach sceny, z otworem i plastikowym rantem.
+- Otwierane na zawiasie pudełko z wkładką, zaczepami, uchwytem i animowanym zwolnieniem płyty.
+- Nowy fotograficzny korpus komputera retro oraz grafika otwartego mechanizmu CD-ROM.
+- Przeniesienie płyty po łuku, wysunięcie i schowanie tacki, docisk, rozruch obrotów i głowica odczytu.
+- Pomijanie, anulowanie, tytuł przy brakującej okładce i systemowe ograniczenie ruchu.
+- Sprawdzone kliknięcia, żądanie Steam oraz dopasowanie sceny do małych okien i 4K.
+
 ## 0.4.2 — same grzbiety i naprawione kliknięcia
 
 - Usunięty widok okładek przodem oraz jego przełącznik; stare ustawienia przechodzą na grzbiety.
