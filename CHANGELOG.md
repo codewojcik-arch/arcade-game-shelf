@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.6.9 — wkładanie płyty od góry
+
+- Usunięto szufladkę napędu.
+- Płyta unosi się z pudełka, ustawia nad napędem i delikatnie opada na trzpień.
+- Osadzenie i docisk poprzedzają rozruch silnika; zachowano nadruk wybranej gry.
+
 ## 0.6.8 — duże pudełko i napęd
 
 - Usunięto grafikę komputera z animacji uruchamiania gry.
