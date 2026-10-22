@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.6.1 — poprawione klikanie gier
+
+- Kliknięcie pudełka otwiera animację również przy drobnym ruchu myszy.
+- Przeciąganie zaczyna się po wyraźnym ruchu; puszczenie pudełka zapisuje pozycję bez otwierania gry.
+- Po przestawieniu gry można od razu ponownie otworzyć pudełko.
+
 ## 0.6.0 — aktualizowanie z GitHuba
 
 - Sprawdzanie stabilnych wydań przy starcie, co godzinę i po wybudzeniu.
