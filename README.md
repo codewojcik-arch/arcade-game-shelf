@@ -15,9 +15,15 @@
 
 ## Zmień bibliotekę Steam w część swojego setupu
 
-ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Towarzyszyć Ci może kot albo szczur — czasem zrzuci pudełko, które po chwili samo wróci na miejsce.
+ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Towarzyszyć Ci może kot, szczur, smok, fretka, gekon lub lis — czasem zrzuci pudełko, które po chwili samo wróci na miejsce.
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
+
+## Nowe pety w wersji 0.2.0
+
+Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma 16 póz, w tym osiem klatek chodu. Wybór: **ikona obok zegara → Pet na półce**.
+
+<table><tr><td><strong>Smok</strong><br><img src="docs/screenshots/dragon.png" alt="Smok rozkładający skrzydła na półce" width="290"></td><td><strong>Fretka</strong><br><img src="docs/screenshots/ferret.png" alt="Fretka na półce" width="290"></td></tr><tr><td><strong>Gekon</strong><br><img src="docs/screenshots/gecko.png" alt="Gekon na półce" width="290"></td><td><strong>Lis</strong><br><img src="docs/screenshots/fox.png" alt="Lis z puszystym ogonem na półce" width="290"></td></tr></table>
 
 ## Co potrafi ARCADE?
 
@@ -29,17 +35,17 @@ ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ust
 | Grzbiety lub fronty | Wybór pudełek ustawionych krawędzią z tytułem albo okładką do przodu. |
 | Gamingowy wygląd | Motyw Night Shift: grafit, ciemne drewno oraz turkusowo-fioletowe światło. Dostępne także dwa inne motywy. |
 | Klimat lat 90. | Animowane pudełko, wyciąganie płyty i wkładanie jej do napędu retro PC. |
-| Kot lub szczur | Spacer, odpoczynek, dodatkowe pozy i okazjonalne strącanie pudełka. |
+| Sześć petów | Kot, szczur, smok, fretka, gekon lub lis: spacer, odpoczynek i okazjonalne strącanie pudełka. |
 | Wygodny pulpit | Menu obok zegara, opcjonalny autostart i tryb zawsze na wierzchu. |
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz `ARCADE-0.1.0-win-x64.zip`.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz `ARCADE-0.2.0-win-x64.zip`.
 2. Wypakuj **cały folder** w miejsce, w którym możesz zapisywać pliki.
 3. Uruchom **ARCADE.exe**. Nie przenoś samego EXE — wymaga pozostałych plików w paczce.
 4. Ustawienia i zamknięcie aplikacji znajdziesz pod ikoną ARCADE obok zegara Windows, czasem pod strzałką ukrytych ikon.
 
-**Wymagania:** Windows 10/11 64-bit, Steam i połączenie z internetem do pierwszego pobrania okładek. Gotowa paczka ma dołączony runtime — nie wymaga osobnego Node.js. Wersja 0.1.0 jest wersją poglądową; wygląd i zachowanie mogą jeszcze się zmieniać.
+**Wymagania:** Windows 10/11 64-bit, Steam i połączenie z internetem do pierwszego pobrania okładek. Gotowa paczka ma dołączony runtime — nie wymaga osobnego Node.js. Wersja 0.2.0 jest wersją poglądową; wygląd i zachowanie mogą jeszcze się zmieniać.
 
 Przesuwaj widget za górną listwę. Dwuklik listwy powiększa lub przywraca szafkę; przeciągnięcie do górnej krawędzi ekranu i puszczenie również ją powiększa. Zamknięcie z menu w zasobniku kończy aplikację.
 
@@ -53,7 +59,7 @@ Przycisk **Zainstaluj w Steam** otwiera instalację niezainstalowanej gry w klie
 
 ## Mały towarzysz na półce
 
-Menu **Pet na półce** pozwala wybrać kota, szczura lub wyłączyć zwierzaka. Kot strąca pudełko przednią łapką; pudełko wraca samo, bez zmiany zapisanego układu i bez ingerencji w pliki gry. Systemowe ograniczenie ruchu wyłącza psoty.
+Menu **Pet na półce** pozwala wybrać kota, szczura, smoka, fretkę, gekona, lisa lub wyłączyć zwierzaka. Nowe postacie mają po osiem klatek spaceru, sen, pielęgnację, rozglądanie, przeciąganie i strącanie przednią łapką. Smok dodatkowo rozkłada skrzydła i wypuszcza delikatny dymek, fretka węszy, gekon unosi łapkę, a lis siada z ogonem owiniętym wokół łap. Kot strąca pudełko przednią łapką; pudełko wraca samo, bez zmiany zapisanego układu i bez ingerencji w pliki gry. Systemowe ograniczenie ruchu wyłącza psoty.
 
 <img src="docs/screenshots/cat-paw.png" alt="Kot na półce podczas strącania pudełka łapką" width="420">
 

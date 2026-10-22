@@ -10,6 +10,6 @@ Steam oraz nazwy i grafiki gier należą do ich odpowiednich właścicieli. ARCA
 
 ## Oprawa ARCADE
 
-Znak `arcade-mark.svg` jest grafiką wektorową projektu. Tekstura drewna, ikona aplikacji, obudowa retro PC oraz plansze animacji kota i szczura zostały przygotowane z pomocą generowania obrazów AI. Dokładne prompty znajdują się w dokumentach Markdown w folderze `assets`. Te pliki nie zmieniają licencji komponentów zewnętrznych ani praw do przedstawionych gier.
+Znak `arcade-mark.svg` jest grafiką wektorową projektu. Tekstura drewna, ikona aplikacji, obudowa retro PC oraz plansze animacji kota, szczura, smoka, fretki, gekona i lisa zostały przygotowane z pomocą generowania obrazów AI. Dokładne prompty znajdują się w dokumentach Markdown w folderze `assets`. Te pliki nie zmieniają licencji komponentów zewnętrznych ani praw do przedstawionych gier.
 
 Autor projektu: [@powiedzmiszczerze](https://www.tiktok.com/@powiedzmiszczerze).
