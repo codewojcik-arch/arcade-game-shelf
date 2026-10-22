@@ -19,9 +19,15 @@ ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ust
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
+## Fronty pudełek 3D w 0.4.1
+
+Widok **Okładki przodem** pokazuje pełne pudełka z grzbietem, górną krawędzią, plastikowymi rantami i oświetleniem. Po najechaniu pudełko lekko wysuwa się z półki. Włączysz je w menu obok zegara → **Wygląd pudełek → Okładki przodem**.
+
+<img src="docs/screenshots/front-cases.png" alt="Pudełka 3D z okładkami przodem, widocznym grzbietem i rantami" width="800">
+
 ## Nowości w 0.4.0: instalator, Aurora Circuit i naturalniejszy chód
 
-Pobierz **ARCADE-Setup-0.4.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.4.1-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
@@ -56,12 +62,12 @@ Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.4.0-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.4.1-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
 4. Ustawienia, motywy, pety i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.4.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.4.1-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 

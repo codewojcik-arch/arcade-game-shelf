@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.4.1 — fronty pudełek 3D
+
+- Okładki przodem jako bryły z oddzielnym frontem, zadrukowanym grzbietem i górną powierzchnią.
+- Perspektywa, plastikowe ranty, refleksy, cień i lekkie wysunięcie po najechaniu.
+- Zachowane przeciąganie, widok grzbietów i skalowanie od małego widgetu po 4K.
+
 ## 0.4.0 — Aurora Circuit i instalator Windows
 
 - Polski instalator EXE: instalacja dla bieżącego użytkownika, skróty, opcjonalny autostart, aktualizacja i odinstalowanie.
