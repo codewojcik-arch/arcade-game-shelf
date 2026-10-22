@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.6.8 — duże pudełko i napęd
+
+- Usunięto grafikę komputera z animacji uruchamiania gry.
+- Powiększone pudełko po lewej i samodzielny napęd z obracającą się płytą po prawej.
+- Tacka wysuwa się bezpośrednio z napędu; płyta zachowuje grafikę wybranej gry.
+- Układ dopasowuje się do rozmiaru okna, a na wąskim ekranie elementy ustawiają się jeden pod drugim.
+
 ## 0.6.7 — natychmiastowy powrót pudełka
 
 - Po upadku do dołu okna i odbiciach pudełko od razu pojawia się z powrotem na półce.
