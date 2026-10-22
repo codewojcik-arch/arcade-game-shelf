@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.4.2 — same grzbiety i naprawione kliknięcia
+
+- Usunięty widok okładek przodem oraz jego przełącznik; stare ustawienia przechodzą na grzbiety.
+- Usunięte modele i powierzchnie frontów 3D.
+- Nowe kliknięcie czyści pozostałości po przerwanym przeciąganiu, bez trwałego blokowania gier.
+- Test rzeczywistych zdarzeń myszy: grzbiet → otwarcie pudełka → płyta → przycisk Graj → żądanie Steam.
+- Sprawdzone ponowne otwarcie po urwanym dragend i pomijanie animacji.
+
 ## 0.4.1 — fronty pudełek 3D
 
 - Okładki przodem jako bryły z oddzielnym frontem, zadrukowanym grzbietem i górną powierzchnią.
