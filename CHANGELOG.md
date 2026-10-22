@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.3.0 — skalowanie i dynamiczne okno
+
+- Większe pudełka i czytelniejsze tytuły dopasowywane do ich długości.
+- Wspólne skalowanie petów, pudełek i półek do dostępnej wysokości okna.
+- Zmiana rozmiaru za osiem krawędzi i narożników oraz aktualne wymiary podczas przeciągania.
+- Przezroczysty podgląd dopasowania do ekranu, poprawna obsługa wielu monitorów.
+- Poziome przewijanie zatłoczonych półek zamiast nieczytelnych miniatur.
+- Testy geometrii, ośmiu kombinacji rozmiaru / widoku, petów i podglądu.
+
 ## 0.2.0 — pety fantasy i zwierzęta
 
 - Smok, fretka, gekon i lis do wyboru w zasobniku Windows.

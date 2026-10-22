@@ -19,6 +19,12 @@ ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ust
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
+## Skalowanie i dynamiczne okno w 0.3.0
+
+Większe pudełka i dopasowane do długości tytułów napisy. Pety skalują się razem z półkami. Przeciągnij górną listwę do górnej krawędzi monitora: zobaczysz podświetlony podgląd docelowego obszaru. Puść, aby dopasować szafkę do dostępnego ekranu, lub odsuń kursor, aby anulować podgląd. Zmieniaj rozmiar za dowolną krawędź lub narożnik; podczas przeciągania widać aktualne wymiary. Nadmiar gier i półek jest przewijany, żeby zachować czytelność.
+
+<img src="docs/screenshots/responsive.png" alt="Większe pudełka i pet dopasowane do rozmiaru szafki" width="650">
+
 ## Nowe pety w wersji 0.2.0
 
 Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma 16 póz, w tym osiem klatek chodu. Wybór: **ikona obok zegara → Pet na półce**.
@@ -40,12 +46,12 @@ Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz `ARCADE-0.2.0-win-x64.zip`.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz `ARCADE-0.3.0-win-x64.zip`.
 2. Wypakuj **cały folder** w miejsce, w którym możesz zapisywać pliki.
 3. Uruchom **ARCADE.exe**. Nie przenoś samego EXE — wymaga pozostałych plików w paczce.
 4. Ustawienia i zamknięcie aplikacji znajdziesz pod ikoną ARCADE obok zegara Windows, czasem pod strzałką ukrytych ikon.
 
-**Wymagania:** Windows 10/11 64-bit, Steam i połączenie z internetem do pierwszego pobrania okładek. Gotowa paczka ma dołączony runtime — nie wymaga osobnego Node.js. Wersja 0.2.0 jest wersją poglądową; wygląd i zachowanie mogą jeszcze się zmieniać.
+**Wymagania:** Windows 10/11 64-bit, Steam i połączenie z internetem do pierwszego pobrania okładek. Gotowa paczka ma dołączony runtime — nie wymaga osobnego Node.js. Wersja 0.3.0 jest wersją poglądową; wygląd i zachowanie mogą jeszcze się zmieniać.
 
 Przesuwaj widget za górną listwę. Dwuklik listwy powiększa lub przywraca szafkę; przeciągnięcie do górnej krawędzi ekranu i puszczenie również ją powiększa. Zamknięcie z menu w zasobniku kończy aplikację.
 
