@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.6.10 — pełnoekranowe pudełko i napęd
+
+- Widok uruchamiania wypełnia całe okno aplikacji.
+- Pudełko, napęd i płyta skalują się do szerokości oraz wysokości, bez stałego limitu wielkości.
+- Czytelniejsze, skalowane przyciski i tekst; pionowy układ na wąskich ekranach.
+- Zachowano wkładanie płyty od góry i jej nadruk.
+
 ## 0.6.9 — wkładanie płyty od góry
 
 - Usunięto szufladkę napędu.
