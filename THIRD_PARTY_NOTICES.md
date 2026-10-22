@@ -8,6 +8,10 @@ ARCADE korzysta z Electron. Paczka Windows zawiera oryginalne pliki licencyjne r
 
 Steam oraz nazwy i grafiki gier należą do ich odpowiednich właścicieli. ARCADE jest niezależnym projektem i nie jest oficjalnym produktem Valve. Okładki są pobierane na komputer użytkownika przy korzystaniu z aplikacji i nie są dołączane do paczki jako osobne pliki. Zrzuty ekranu przedstawiają działanie interfejsu.
 
+## Instalator Windows
+
+Instalator EXE jest kompilowany za pomocą [Inno Setup](https://jrsoftware.org/isinfo.php). Kompilator jest narzędziem budowania i nie jest dołączany do aplikacji. Plansza instalatora wykorzystuje istniejącą ikonę ARCADE oraz rysowane programowo elementy oprawy projektu.
+
 ## Oprawa ARCADE
 
 Znak `arcade-mark.svg` jest grafiką wektorową projektu. Tekstura drewna, ikona aplikacji, obudowa retro PC oraz plansze animacji kota, szczura, smoka, fretki, gekona i lisa zostały przygotowane z pomocą generowania obrazów AI. Dokładne prompty znajdują się w dokumentach Markdown w folderze `assets`. Te pliki nie zmieniają licencji komponentów zewnętrznych ani praw do przedstawionych gier.

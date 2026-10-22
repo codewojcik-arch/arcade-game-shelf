@@ -1,5 +1,21 @@
 # Historia zmian
 
+## 0.4.0 — Aurora Circuit i instalator Windows
+
+- Polski instalator EXE: instalacja dla bieżącego użytkownika, skróty, opcjonalny autostart, aktualizacja i odinstalowanie.
+- Czwarty motyw Aurora Circuit: animowana zorza, obwody, cząsteczki i sygnały świetlne na półkach.
+- Pauza animacji w tle i respektowanie ograniczenia ruchu w Windows.
+- Chód sześciu petów sterowany przebytą drogą; długość kroku rośnie wraz ze skalą postaci.
+- Krótkie przyspieszenie i hamowanie, przenoszenie ciężaru ciała, bez niezależnego przesuwania i zegara kroków.
+- Testy rzeczywistego ruchu wszystkich petów, motywu, ograniczenia animacji oraz instalacji / aktualizacji / odinstalowania.
+
+## 0.3.1 — fretka i pełny ekran
+
+- Wycinanie całych sylwetek petów zamiast obcinania ogona i pyszczka na granicach siatki klatek.
+- Usunięcie ograniczenia szerokości szafki i proporcjonalne skalowanie aż do 4K.
+- Przeciąganie belki rozpoczyna się po ruchu kursora, dzięki czemu dwuklik poprawnie powiększa i przywraca okno.
+- Testy okien Full HD, 1440p i 4K w obu widokach, powiększania i przywracania oraz animacji petów.
+
 ## 0.3.0 — skalowanie i dynamiczne okno
 
 - Większe pudełka i czytelniejsze tytuły dopasowywane do ich długości.

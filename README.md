@@ -19,7 +19,17 @@ ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ust
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
-## Skalowanie i dynamiczne okno w 0.3.0
+## Nowości w 0.4.0: instalator, Aurora Circuit i naturalniejszy chód
+
+Pobierz **ARCADE-Setup-0.4.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+
+**Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
+
+<img src="docs/screenshots/aurora.png" alt="ARCADE Aurora Circuit — animowane światło i obwody" width="800">
+
+Tempo kroków sześciu petów jest powiązane z pokonywaną drogą i wielkością zwierzaka. Start i zatrzymanie mają krótkie przejście prędkości. Nadal używają ośmiu klatek chodu; sylwetki są wycinane w całości, również gdy ogon przekracza siatkę planszy.
+
+## Skalowanie i dynamiczne okno
 
 Większe pudełka i dopasowane do długości tytułów napisy. Pety skalują się razem z półkami. Przeciągnij górną listwę do górnej krawędzi monitora: zobaczysz podświetlony podgląd docelowego obszaru. Puść, aby dopasować szafkę do dostępnego ekranu, lub odsuń kursor, aby anulować podgląd. Zmieniaj rozmiar za dowolną krawędź lub narożnik; podczas przeciągania widać aktualne wymiary. Nadmiar gier i półek jest przewijany, żeby zachować czytelność.
 
@@ -39,19 +49,21 @@ Smok, fretka, gekon i lis dołączają do kota i szczura. Każda nowa postać ma
 | Cała biblioteka | Połączenie przez Steam Web API pokazuje także posiadane, niezainstalowane gry. |
 | Układ po swojemu | Przeciąganie pudełek między półkami, zapis układu i dopasowanie do okna. |
 | Grzbiety lub fronty | Wybór pudełek ustawionych krawędzią z tytułem albo okładką do przodu. |
-| Gamingowy wygląd | Motyw Night Shift: grafit, ciemne drewno oraz turkusowo-fioletowe światło. Dostępne także dwa inne motywy. |
+| Gamingowy wygląd | Motyw Night Shift: grafit, ciemne drewno oraz turkusowo-fioletowe światło. Dostępne także Aurora Circuit, motyw realistyczny i klasyczny. |
 | Klimat lat 90. | Animowane pudełko, wyciąganie płyty i wkładanie jej do napędu retro PC. |
 | Sześć petów | Kot, szczur, smok, fretka, gekon lub lis: spacer, odpoczynek i okazjonalne strącanie pudełka. |
 | Wygodny pulpit | Menu obok zegara, opcjonalny autostart i tryb zawsze na wierzchu. |
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz `ARCADE-0.3.0-win-x64.zip`.
-2. Wypakuj **cały folder** w miejsce, w którym możesz zapisywać pliki.
-3. Uruchom **ARCADE.exe**. Nie przenoś samego EXE — wymaga pozostałych plików w paczce.
-4. Ustawienia i zamknięcie aplikacji znajdziesz pod ikoną ARCADE obok zegara Windows, czasem pod strzałką ukrytych ikon.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.4.0-win-x64.exe**.
+2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
+3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
+4. Ustawienia, motywy, pety i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-**Wymagania:** Windows 10/11 64-bit, Steam i połączenie z internetem do pierwszego pobrania okładek. Gotowa paczka ma dołączony runtime — nie wymaga osobnego Node.js. Wersja 0.3.0 jest wersją poglądową; wygląd i zachowanie mogą jeszcze się zmieniać.
+Alternatywnie pobierz **ARCADE-0.4.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+
+**Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 
 Przesuwaj widget za górną listwę. Dwuklik listwy powiększa lub przywraca szafkę; przeciągnięcie do górnej krawędzi ekranu i puszczenie również ją powiększa. Zamknięcie z menu w zasobniku kończy aplikację.
 
