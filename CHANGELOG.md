@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.6.6 — pudełka spadają do samego dołu
+
+- Pudełko strącone przez zwierzaka spada aż do dolnej krawędzi okna, niezależnie od półki i rozdzielczości.
+- Przyspieszanie podczas upadku, obrót, dwa odbicia i krótki odpoczynek na dole.
+- Cień na podłodze, subtelny efekt uderzenia i płynny powrót na miejsce.
+- Zachowany układ pudełek; przerwanie animacji przywraca oryginał.
+
 ## 0.6.5 — nowy kot i mniejszy wybór petów
 
 - Usunięto smoka, Czorcika i lisa z wyboru zwierzaków oraz paczki aplikacji.
