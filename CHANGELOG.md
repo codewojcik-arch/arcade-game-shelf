@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.6.4 — płynniejszy chód wszystkich petów
+
+- Nowy renderer chodu dla kota, szczura, smoka, fretki, gekona i lisa.
+- Stały obszar rysowania oraz wyrównanie tułowia i grzbietu usuwają skoki położenia między klatkami.
+- Pozycje pośrednie wyliczane z ruchu sylwetki; ograniczone podwójne kontury łap.
+- Wygładzanie krawędzi, zachowane drobne krawędzie futra i delikatne wyostrzenie przy powiększeniu.
+- Renderowanie dopasowane do DPI; obliczenia ruchu wykonywane w tle.
+- Przewijanie widocznej półki nie restartuje już animacji zwierzaka.
+
 ## 0.6.3 — większe pety i budzenie Czorcika
 
 - Czorcik jest większy o 85%, a pozostałe zwierzaki o 25%; skala nadal dopasowuje się do okna.
