@@ -1,0 +1,24 @@
+name: Zgłoś błąd
+description: Problem z uruchomieniem, półką, okładkami albo animacją.
+title: '[Błąd] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Nie wklejaj klucza API Steam ani plików z folderu cache/.'
+  - type: input
+    id: versions
+    attributes:
+      label: Wersja ARCADE i Windows
+      placeholder: 'ARCADE 0.1.0, Windows 11 x64'
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Co się stało i jak to odtworzyć?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Jakiego działania oczekujesz?
