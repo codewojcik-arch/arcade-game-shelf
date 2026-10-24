@@ -21,3 +21,7 @@ Autor projektu: [@powiedzmiszczerze](https://www.tiktok.com/@powiedzmiszczerze).
 ## GOG
 
 GOG oraz nazwy, okładki i instalatory gier pozostają materiałami odpowiednich właścicieli. ARCADE jest niezależną aplikacją i nie jest oficjalnym produktem GOG. Logowanie oraz pliki gier pochodzą z usług GOG; sesja użytkownika i pobrane instalatory nie są dołączane do paczki ARCADE.
+
+## Podziękowanie autora
+
+Ilustracja autora z kotem Czorcikiem została przygotowana z pomocą generowania obrazów AI na podstawie fotografii dostarczonych przez autora. Oryginalne fotografie nie są dołączane do aplikacji. Opis przygotowania: `assets/CREATOR-INTRO.md`.

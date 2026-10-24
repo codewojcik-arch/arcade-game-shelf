@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.10.0 — autor, Czorcik i oprawa filtra
+
+- Autorska ilustracja 3D przedstawiająca @powiedzmiszczerze z kotem Czorcikiem, przygotowana ze zdjęć referencyjnych.
+- Krótkie podziękowanie przy wybieraniu gry, przed dotychczasową animacją pudełka i napędu: płynne pojawienie, delikatne zbliżenie, refleks światła i tekst.
+- Przycisk „Przejdź do gry”, automatyczne przejście po 3,8 sekundy i obsługa ograniczonego ruchu. Zamknięcie okna anuluje przejście.
+- Przełącznik „Wszystkie gry / Tylko zainstalowane” dobiera tło, obrys, tekst i aktywny stan do motywu: Klasyczny, Orzech i mosiądz, Gaming oraz Aurora.
+- Skalowanie podziękowania od małego widgetu do Full HD, 1440p i 4K.
+
 ## 0.9.1 — ukrywanie niezainstalowanych gier
 
 - Przełącznik „Wszystkie gry / Tylko zainstalowane” bezpośrednio na dole półki, dostępny w każdym motywie.
