@@ -19,6 +19,12 @@ ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ust
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
+## 0.13.1 — imiona grawerowane na podstawach
+
+- Na figurkach pozostają tylko imiona, bez podpisów ról.
+- Napisy znajdują się na metalowym froncie oryginalnej podstawy z efektem zagłębionego graweru.
+- Imiona poruszają się razem z podstawą; usunięte osobne prostokątne etykiety i ich wariant w motywie Szlak Wilka.
+
 ## 0.13.0 — półka bez petów i poprawiony Brim
 
 - Usunięte wszystkie pety, ich animacje, grafiki i opcje w menu.
@@ -86,7 +92,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 
 - Dziesięć figurek: Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra.
 - Subtelny ruch postaci przy nieruchomych podstawkach, animowane efekty dopasowane do żywiołu oraz krótka reakcja po kliknięciu podstawki.
-- Poprawione, równo wyśrodkowane tabliczki z nazwą i rolą; napisy pozostają proste podczas przechylania figurki.
+- Same imiona z efektem graweru na przedniej części metalowych podstawek. Napisy zachowują perspektywę podstawy.
 - Osobne przestawianie, zapisywanie i włączanie każdej figurki. Menu obok zegara pozwala pokazać lub ukryć cały zestaw.
 - Zachowane ustawienia Zephyra z poprzedniej wersji, układanie wielu figurek bez nachodzenia na siebie i skalowanie do 4K.
 
@@ -165,7 +171,7 @@ Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przod
 
 ## Instalator i Aurora Circuit
 
-Pobierz **ARCADE-Setup-0.13.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.13.1-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
@@ -192,12 +198,12 @@ Większe pudełka i dopasowane do długości tytułów napisy. Przeciągnij gór
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.13.0-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.13.1-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
 4. Ustawienia, motywy, figurki i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.13.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.13.1-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 

@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.13.1 — imiona grawerowane na podstawach
+
+- Na figurkach pozostają tylko imiona, bez podpisów ról.
+- Napisy znajdują się na metalowym froncie oryginalnej podstawy z efektem zagłębionego graweru.
+- Imiona poruszają się razem z podstawą; usunięte osobne prostokątne etykiety i ich wariant w motywie Szlak Wilka.
+
+
 ## 0.13.0 — usunięcie petów i poprawka Brima
 
 - Całkowicie usunięte pety z półki, menu, kodu uruchomieniowego i paczki aplikacji.
