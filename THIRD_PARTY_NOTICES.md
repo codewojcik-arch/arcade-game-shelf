@@ -29,3 +29,7 @@ Ilustracja autora z kotem Czorcikiem została przygotowana z pomocą generowania
 ## Szlak Wilka
 
 Tekstura przydymionego drewna została przygotowana z pomocą generowania obrazów AI. Wektorowy medalion wilka jest grafiką narysowaną na potrzeby ARCADE. Opis materiałów: `assets/WOLF-THEME.md`.
+
+## Szczurzy antybohaterowie
+
+Sześć renderów figurek przygotowano z pomocą imagegen na podstawie referencji dostarczonych przez użytkownika. Referencje nie są dystrybuowane. Dym, światła i pozostałe efekty są rysowane przez aplikację. Opis: `assets/RAT-COLLECTION.md`.

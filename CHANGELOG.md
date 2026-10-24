@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.14.0 — szczurzy antybohaterowie
+
+- Sześć nowych figurek: Operator, Don, Vigilante, Outlaw, Detective i Seeker.
+- Mruganie odsłoniętymi oczami, dym i żar cygara/papierosa, pulsujący wizjer i radio, pustynny pył, światło latarni oraz artefakt i ekran detektora.
+- Własne efekty przy rekwizytach każdej figurki, grawerowane imiona i niezależne przestawianie.
+- Dwie serie w menu obok zegara; można pokazać lub ukryć całą serię. Dodatkowe półki mieszczą nową kolekcję bez przestawiania zapisanych gier.
+- Animacje respektują ograniczenie ruchu i pauzują podczas otwierania gier.
+
+
 ## 0.13.1 — imiona grawerowane na podstawach
 
 - Na figurkach pozostają tylko imiona, bez podpisów ról.
