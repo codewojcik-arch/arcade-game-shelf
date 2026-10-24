@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.8.0 — pełna animowana kolekcja kotów
+
+- Dziesięć figurek: Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra.
+- Subtelny ruch postaci przy nieruchomych podstawkach, animowane efekty dopasowane do żywiołu oraz krótka reakcja po kliknięciu podstawki.
+- Poprawione, równo wyśrodkowane tabliczki z nazwą i rolą; napisy pozostają proste podczas przechylania figurki.
+- Osobne przestawianie, zapisywanie i włączanie każdej figurki. Menu obok zegara pozwala pokazać lub ukryć cały zestaw.
+- Zachowane ustawienia Zephyra z poprzedniej wersji, układanie wielu figurek bez nachodzenia na siebie i skalowanie do 4K.
+
 ## 0.7.0 — pierwsza figurka kolekcjonerska
 
 - Zephyr · Strażnik Wiatru: autorska figurka białego kota na metalowej podstawce, z niebieskimi kryształami i efektem energii.
