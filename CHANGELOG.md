@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.7.0 — pierwsza figurka kolekcjonerska
+
+- Zephyr · Strażnik Wiatru: autorska figurka białego kota na metalowej podstawce, z niebieskimi kryształami i efektem energii.
+- Szczegółowy render z wyglądem 3D, delikatne przechylenie, połysk i cień na półce.
+- Przeciąganie za podstawkę między półkami oraz zapisywanie pozycji.
+- Menu obok zegara: Figurki kolekcjonerskie → pokaż/ukryj Zephyra lub przywróć pozycję.
+- Skalowanie do wielkości półek; sylwetka figurki przepuszcza kliknięcia do gier, aktywna jest tylko podstawka.
+
 ## 0.6.12 — stabilny obszar klikania pudełek
 
 - Naprawiono kliknięcia przy dolnej krawędzi pudełka: efekt najechania nie podnosi już przycisku spod kursora.
