@@ -25,3 +25,7 @@ GOG oraz nazwy, okładki i instalatory gier pozostają materiałami odpowiednich
 ## Podziękowanie autora
 
 Ilustracja autora z kotem Czorcikiem została przygotowana z pomocą generowania obrazów AI na podstawie fotografii dostarczonych przez autora. Oryginalne fotografie nie są dołączane do aplikacji. Opis przygotowania: `assets/CREATOR-INTRO.md`.
+
+## Szlak Wilka
+
+Tekstura przydymionego drewna została przygotowana z pomocą generowania obrazów AI. Wektorowy medalion wilka jest grafiką narysowaną na potrzeby ARCADE. Opis materiałów: `assets/WOLF-THEME.md`.
