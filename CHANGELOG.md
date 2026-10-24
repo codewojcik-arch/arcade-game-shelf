@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.12.0 — Milka zamiast dotychczasowych petów
+
+- Jedyny pet na półce: Milka, kotka 3D z dużymi zielonymi oczami i białymi łapkami, przygotowana na podstawie przesłanej planszy.
+- Usunięte z menu i paczki aktywne grafiki poprzedniego kota, szczura, fretki oraz gekona. Wcześniejsze ustawienia zwierzaków przechodzą na Milkę; opcja bez peta pozostaje dostępna.
+- Dwadzieścia pełnych klatek chodu, odpoczynek, sen, pielęgnacja, mruganie, przeciąganie oraz budzenie z ziewaniem.
+- Delikatne strącanie pudełka przednią łapką. Bez osobnego wyginania łap ani przenikania kolejnych klatek chodu.
+- Przetestowane dopasowanie do półek i ekranów do 4K, kontakt łapki, powrót pudełka oraz klikalność gier podczas ruchu.
+
 ## 0.11.0 — Szlak Wilka
 
 - Nowy motyw dark fantasy inspirowany wiedźmińskim klimatem: przydymiony dąb, ciemne żelazo, srebrne okucia i spokojne światło.
