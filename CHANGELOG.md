@@ -1,5 +1,15 @@
 # Historia zmian
 
+## 0.9.1 — ukrywanie niezainstalowanych gier
+
+- Przełącznik „Wszystkie gry / Tylko zainstalowane” bezpośrednio na dole półki, dostępny w każdym motywie.
+- Szybka opcja „Ukryj niezainstalowane gry” w głównym menu obok zegara.
+- Wspólny filtr dla Steam i GOG, zapamiętywany po zamknięciu aplikacji. Przełączenie widoku zachowuje ustawienie pudełek.
+- Połączenie z GOG zachowuje wybrany filtr zamiast automatycznie pokazywać całą bibliotekę.
+- Pusta półka pokazuje komunikat zamiast przykładowych niezainstalowanych gier.
+
+Sprawdzono przełączanie na mieszanej bibliotece Steam i GOG, zapis ustawienia, pustą bibliotekę oraz klikalność przycisku we wszystkich czterech motywach.
+
 ## 0.9.0 — biblioteka GOG i pobieranie gier
 
 - Logowanie na oficjalnej stronie GOG w osobnym oknie i zapamiętywanie sesji lokalnie. Bez formularza hasła w ARCADE.
