@@ -15,19 +15,15 @@
 
 ## Zmień bibliotekę Steam i GOG w część swojego setupu
 
-ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Towarzyszyć Ci może Milka — pręgowana kotka z dużymi zielonymi oczami — czasem zrzuci pudełko, które po chwili samo wróci na miejsce.
+ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Półki możesz ozdobić kolekcją animowanych figurek.
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
-## 0.12.0 — Milka zamiast dotychczasowych petów
+## 0.13.0 — półka bez petów i poprawiony Brim
 
-- Jedyny pet na półce: Milka, kotka 3D z dużymi zielonymi oczami i białymi łapkami, przygotowana na podstawie przesłanej planszy.
-- Usunięte z menu i paczki aktywne grafiki poprzedniego kota, szczura, fretki oraz gekona. Wcześniejsze ustawienia zwierzaków przechodzą na Milkę; opcja bez peta pozostaje dostępna.
-- Dwadzieścia pełnych klatek chodu, odpoczynek, sen, pielęgnacja, mruganie, przeciąganie oraz budzenie z ziewaniem.
-- Delikatne strącanie pudełka przednią łapką. Bez osobnego wyginania łap ani przenikania kolejnych klatek chodu.
-- Przetestowane dopasowanie do półek i ekranów do 4K, kontakt łapki, powrót pudełka oraz klikalność gier podczas ruchu.
-
-<img src="docs/screenshots/milka.png" alt="Milka — nowa kotka na półce ARCADE" width="1000">
+- Usunięte wszystkie pety, ich animacje, grafiki i opcje w menu.
+- Aktualizacja sprząta stare pliki petów; biblioteka, układ gier i figurki pozostają zachowane.
+- Poprawiona figurka Brim: dwoje uszu, bez dodatkowego ucha za beretem.
 
 ## 0.11.0 — Szlak Wilka
 
@@ -113,13 +109,6 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Kliknięcie działa bez konieczności przenoszenia pudełka na inną półkę.
 - Dodano testy górnej i dolnej krawędzi oraz środka pudełek na każdej półce w motywach Realistycznym, Gaming i Aurora.
 
-## 0.6.11 — priorytet klikania pudełek przed petem
-
-- Wciśnięcie myszy na grze natychmiast wstrzymuje peta, także podczas budzenia i przygotowania strącenia.
-- Obsługa przeciągania przez przechwycenie wskaźnika wstrzymuje peta tak samo jak przeciąganie systemowe.
-- Wszystkie elementy grafiki peta i efektów przepuszczają kliknięcia do półki.
-- Dodano testy myszy podczas chodu, snu, budzenia i próby strącenia pudełka.
-
 ## 0.6.10 — pełnoekranowe pudełko i napęd
 
 - Widok uruchamiania wypełnia całe okno aplikacji.
@@ -142,24 +131,6 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 
 <img src="docs/screenshots/standalone-drive.png" alt="Duże pudełko gry i samodzielny napęd optyczny" width="900">
 
-## 0.6.7 — natychmiastowy powrót pudełka
-
-- Po upadku do dołu okna i odbiciach pudełko od razu pojawia się z powrotem na półce.
-- Usunięto animację cofania w górę; pozycja pudełka pozostaje zachowana.
-
-## 0.6.6 — pudełka spadają do samego dołu
-
-- Pudełko strącone przez zwierzaka spada aż do dolnej krawędzi okna, niezależnie od półki i rozdzielczości.
-- Przyspieszanie podczas upadku, obrót, dwa odbicia i krótki odpoczynek na dole.
-- Cień na podłodze, subtelny efekt uderzenia i płynny powrót na miejsce.
-- Zachowany układ pudełek; przerwanie animacji przywraca oryginał.
-
-## 0.6.5 — nowy srebrny kot
-
-Nowy realistyczny kot w srebrne pręgi, z bursztynowymi oczami. Nowe pełne pozy kota do chodu i delikatnego strącania gry — bez osobnego wyginania łap. Kot śpi, budzi się, ziewa i strąca pudełka. W menu pozostają kot, szczur, fretka i gekon.
-
-<img src="docs/screenshots/silver-cat.png" alt="Nowy srebrny kot w ARCADE" width="650">
-
 ## 0.6.1 — poprawione klikanie gier
 
 - Kliknięcie pudełka otwiera animację również przy drobnym ruchu myszy.
@@ -170,7 +141,7 @@ Nowy realistyczny kot w srebrne pręgi, z bursztynowymi oczami. Nowe pełne pozy
 
 ARCADE sprawdza GitHub przy uruchomieniu, co godzinę i po wybudzeniu komputera. Gdy pojawi się nowsze stabilne wydanie, kafelek pokazuje **numer wersji, co nowego i przycisk Zaktualizuj i uruchom ponownie**.
 
-Aplikacja pobiera oficjalny instalator, weryfikuje sumę SHA-256, aktualizuje ten sam folder i uruchamia się ponownie. Układ półki, pet, motyw i połączenie Steam są zachowane. Po przejściu na aktualną wersję kafelek oraz lista zmian znikają. Można też wybrać **Sprawdź aktualizacje** w menu obok zegara.
+Aplikacja pobiera oficjalny instalator, weryfikuje sumę SHA-256, aktualizuje ten sam folder i uruchamia się ponownie. Układ półki, figurki, motyw i połączenie Steam są zachowane. Po przejściu na aktualną wersję kafelek oraz lista zmian znikają. Można też wybrać **Sprawdź aktualizacje** w menu obok zegara.
 
 <img src="docs/screenshots/update-card.png" alt="Przykładowy kafelek aktualizacji — testowe dane następnej wersji" width="650">
 
@@ -192,25 +163,20 @@ Pełna sekwencja trwa około 10 sekund. **Pomiń animację** od razu udostępnia
 
 Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przodem został usunięty. Kliknięcie gry otwiera animowane pudełko, wkłada płytę do napędu retro PC i odblokowuje przycisk **Graj**. Następne kliknięcie odzyskuje działanie również po przerwanym przeciąganiu.
 
-## Nowości w 0.4.0: instalator, Aurora Circuit i naturalniejszy chód
+## Instalator i Aurora Circuit
 
-Pobierz **ARCADE-Setup-0.12.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.13.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
 <img src="docs/screenshots/aurora.png" alt="ARCADE Aurora Circuit — animowane światło i obwody" width="800">
 
-Tempo kroków sześciu petów jest powiązane z pokonywaną drogą i wielkością zwierzaka. Start i zatrzymanie mają krótkie przejście prędkości. Nadal używają ośmiu klatek chodu; sylwetki są wycinane w całości, również gdy ogon przekracza siatkę planszy.
 
 ## Skalowanie i dynamiczne okno
 
-Większe pudełka i dopasowane do długości tytułów napisy. Pety skalują się razem z półkami. Przeciągnij górną listwę do górnej krawędzi monitora: zobaczysz podświetlony podgląd docelowego obszaru. Puść, aby dopasować szafkę do dostępnego ekranu, lub odsuń kursor, aby anulować podgląd. Zmieniaj rozmiar za dowolną krawędź lub narożnik; podczas przeciągania widać aktualne wymiary. Nadmiar gier i półek jest przewijany, żeby zachować czytelność.
+Większe pudełka i dopasowane do długości tytułów napisy. Przeciągnij górną listwę do górnej krawędzi monitora: zobaczysz podświetlony podgląd docelowego obszaru. Puść, aby dopasować szafkę do dostępnego ekranu, lub odsuń kursor, aby anulować podgląd. Zmieniaj rozmiar za dowolną krawędź lub narożnik; podczas przeciągania widać aktualne wymiary. Nadmiar gier i półek jest przewijany, żeby zachować czytelność.
 
-<img src="docs/screenshots/responsive.png" alt="Większe pudełka i pet dopasowane do rozmiaru szafki" width="650">
-
-## Zwierzaki na półce
-
-Milka lub brak peta. Wybór: **ikona obok zegara → Pet na półce**.
+<img src="docs/screenshots/responsive.png" alt="Większe pudełka dopasowane do rozmiaru szafki" width="650">
 
 ## Co potrafi ARCADE?
 
@@ -222,17 +188,16 @@ Milka lub brak peta. Wybór: **ikona obok zegara → Pet na półce**.
 | Grzbiety z tytułami | Gry ustawione krawędzią pudełka; kliknięcie otwiera pudełko i animację płyty. |
 | Gamingowy wygląd | Motyw Night Shift: grafit, ciemne drewno oraz turkusowo-fioletowe światło. Dostępne także Aurora Circuit, motyw realistyczny i klasyczny. |
 | Klimat lat 90. | Animowane pudełko, wyciąganie płyty i wkładanie jej do napędu retro PC. |
-| Kotka Milka | Spacer, odpoczynek, sen, ziewanie i delikatne strącanie pudełka łapką. |
 | Wygodny pulpit | Menu obok zegara, opcjonalny autostart i tryb zawsze na wierzchu. |
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.12.0-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.13.0-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
-4. Ustawienia, motywy, pety i zamknięcie znajdziesz pod ikoną obok zegara Windows.
+4. Ustawienia, motywy, figurki i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.12.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.13.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 
@@ -245,12 +210,6 @@ W menu obok zegara wybierz **Biblioteka Steam i GOG → Tylko zainstalowane / Ws
 Zainstalowane gry są wykrywane lokalnie bez klucza API. Pełna lista posiadanych gier wymaga jednorazowego wejścia w **Połącz konto / ustawienia** i wklejenia własnego klucza Steam Web API. SteamID jest wykrywany automatycznie; można go zmienić. Przycisk w formularzu otwiera oficjalną stronę Steam. Szczegóły gier na profilu muszą być dostępne dla API. Aplikacja nie pyta o hasło do Steam.
 
 Przycisk **Zainstaluj w Steam** otwiera instalację niezainstalowanej gry w kliencie Steam. ARCADE nie pobiera plików gier samodzielnie i nie zastępuje Steam.
-
-## Mały towarzysz na półce
-
-Menu **Pet na półce** pozwala włączyć Milkę lub wyłączyć peta. Milka ma dwadzieścia klatek chodu, sen, budzenie z ziewaniem, pielęgnację, rozglądanie, przeciąganie i strącanie przednią łapką. Animacje wykorzystują pełne sylwetki, bez osobnego deformowania łap.
-
-<img src="docs/screenshots/cat-paw.png" alt="Kot na półce podczas strącania pudełka łapką" width="420">
 
 ## Konto GOG
 

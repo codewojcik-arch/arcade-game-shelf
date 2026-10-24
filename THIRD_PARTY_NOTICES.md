@@ -14,7 +14,7 @@ Instalator EXE jest kompilowany za pomocą [Inno Setup](https://jrsoftware.org/i
 
 ## Oprawa ARCADE
 
-Znak `arcade-mark.svg` jest grafiką wektorową projektu. Tekstura drewna, ikona aplikacji, obudowa retro PC, wnętrze mechanizmu CD-ROM oraz plansze animacji kota, szczura, smoka, fretki, gekona i lisa zostały przygotowane z pomocą generowania obrazów AI. Dokładne prompty znajdują się w dokumentach Markdown w folderze `assets`. Te pliki nie zmieniają licencji komponentów zewnętrznych ani praw do przedstawionych gier.
+Znak `arcade-mark.svg` jest grafiką wektorową projektu. Tekstura drewna, ikona aplikacji, wnętrze mechanizmu CD-ROM oraz figurki kolekcjonerskie zostały przygotowane z pomocą generowania obrazów AI. Dokładne prompty znajdują się w dokumentach Markdown w folderze `assets`. Te pliki nie zmieniają licencji komponentów zewnętrznych ani praw do przedstawionych gier.
 
 Autor projektu: [@powiedzmiszczerze](https://www.tiktok.com/@powiedzmiszczerze).
 
@@ -29,7 +29,3 @@ Ilustracja autora z kotem Czorcikiem została przygotowana z pomocą generowania
 ## Szlak Wilka
 
 Tekstura przydymionego drewna została przygotowana z pomocą generowania obrazów AI. Wektorowy medalion wilka jest grafiką narysowaną na potrzeby ARCADE. Opis materiałów: `assets/WOLF-THEME.md`.
-
-## Milka
-
-Trzy przezroczyste plansze Milki przygotowano z pomocą generowania obrazów AI na podstawie referencji dostarczonej przez użytkownika. Opis: `assets/MILKA.md`.

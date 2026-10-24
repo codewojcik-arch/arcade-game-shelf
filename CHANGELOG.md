@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.13.0 — usunięcie petów i poprawka Brima
+
+- Całkowicie usunięte pety z półki, menu, kodu uruchomieniowego i paczki aplikacji.
+- Wycofane ustawienia petów są odrzucane podczas aktualizacji. Instalator usuwa znane stare pliki bez naruszania cache i układu gier.
+- Usunięte dodatkowe trzecie ucho Brima; zachowane efekty ognia, mruganie i pozostałe figurki.
+
 ## 0.12.0 — Milka zamiast dotychczasowych petów
 
 - Jedyny pet na półce: Milka, kotka 3D z dużymi zielonymi oczami i białymi łapkami, przygotowana na podstawie przesłanej planszy.
