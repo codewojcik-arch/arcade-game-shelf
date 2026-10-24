@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Twoje gry. Twoja półka. Twój styl.</strong><br>
-  Gamingowy widget Steam na pulpit Windows — od @powiedzmiszczerze.
+  Gamingowy widget Steam i GOG na pulpit Windows — od @powiedzmiszczerze.
 </p>
 
 <p align="center">
@@ -13,11 +13,24 @@
 
 ---
 
-## Zmień bibliotekę Steam w część swojego setupu
+## Zmień bibliotekę Steam i GOG w część swojego setupu
 
 ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Towarzyszyć Ci może nowy srebrny kot, szczur, fretka lub gekon — czasem zrzuci pudełko, które po chwili samo wróci na miejsce.
 
 <img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
+
+## 0.9.0 — biblioteka GOG i pobieranie gier
+
+- Logowanie na oficjalnej stronie GOG w osobnym oknie i zapamiętywanie sesji lokalnie. Bez formularza hasła w ARCADE.
+- Import posiadanych gier GOG, również ukrytych, oraz automatyczne okładki. Wspólna półka Steam i GOG z oznaczeniem sklepu.
+- Wybór instalatorów Windows według języka i rozmiaru, pobieranie do wybranego folderu, postęp, anulowanie i pokazanie pobranego pliku.
+- Wykrywanie gier zarejestrowanych przez instalatory GOG na Windows i ich uruchamianie z półki.
+- Filtr wszystkich lub tylko zainstalowanych gier, zapisywanie ustawienia pudełek oraz panel skalujący się od małego widgetu do 4K.
+- Odłączenie konta usuwa lokalną sesję i zaimportowaną listę.
+
+Po aktualizacji: menu obok zegara → Biblioteka Steam i GOG → GOG · połącz konto / pobieranie. Po zalogowaniu wybierz grę na półce i kliknij „Pobierz z GOG”. Przy instalatorach wieloczęściowych pobierz .exe i wszystkie odpowiadające pliki .bin do jednego folderu, potem uruchom instalator.
+
+Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzenie uprawnień do plików oraz pobieranie pliku testowego w natywnym oknie. Sprawdzono otwarcie formularza GOG bez zalogowania; pełny import i pobieranie z rzeczywistego konta wymagają zalogowania użytkownika.
 
 ## 0.8.1 — oczy, woda i ogień figurek
 
@@ -134,7 +147,7 @@ Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przod
 
 ## Nowości w 0.4.0: instalator, Aurora Circuit i naturalniejszy chód
 
-Pobierz **ARCADE-Setup-0.8.1-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.9.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
@@ -167,12 +180,12 @@ Kot, szczur, fretka i gekon. Wybór: **ikona obok zegara → Pet na półce**.
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.8.1-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.9.0-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
 4. Ustawienia, motywy, pety i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.8.1-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.9.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 
@@ -180,7 +193,7 @@ Przesuwaj widget za górną listwę. Dwuklik listwy powiększa lub przywraca sza
 
 ## Wszystkie gry czy tylko zainstalowane?
 
-W menu obok zegara wybierz **Biblioteka Steam → Tylko zainstalowane / Wszystkie posiadane gry**. Aplikacja zapamięta wybór.
+W menu obok zegara wybierz **Biblioteka Steam i GOG → Tylko zainstalowane / Wszystkie posiadane gry**. Aplikacja zapamięta wybór.
 
 Zainstalowane gry są wykrywane lokalnie bez klucza API. Pełna lista posiadanych gier wymaga jednorazowego wejścia w **Połącz konto / ustawienia** i wklejenia własnego klucza Steam Web API. SteamID jest wykrywany automatycznie; można go zmienić. Przycisk w formularzu otwiera oficjalną stronę Steam. Szczegóły gier na profilu muszą być dostępne dla API. Aplikacja nie pyta o hasło do Steam.
 
@@ -191,6 +204,14 @@ Przycisk **Zainstaluj w Steam** otwiera instalację niezainstalowanej gry w klie
 Menu **Pet na półce** pozwala wybrać kota, szczura, fretkę, gekona lub wyłączyć zwierzaka. Nowe postacie mają po osiem klatek spaceru, sen, pielęgnację, rozglądanie, przeciąganie i strącanie przednią łapką. Smok dodatkowo rozkłada skrzydła i wypuszcza delikatny dymek, fretka węszy, gekon unosi łapkę, a lis siada z ogonem owiniętym wokół łap. Kot strąca pudełko przednią łapką; pudełko wraca samo, bez zmiany zapisanego układu i bez ingerencji w pliki gry. Systemowe ograniczenie ruchu wyłącza psoty.
 
 <img src="docs/screenshots/cat-paw.png" alt="Kot na półce podczas strącania pudełka łapką" width="420">
+
+## Konto GOG
+
+W menu obok zegara wybierz **Biblioteka Steam i GOG → GOG · połącz konto / pobieranie**, a następnie **Połącz z GOG**. Zaloguj się na oficjalnej stronie GOG. Po połączeniu aplikacja przełączy półkę na wszystkie posiadane gry.
+
+Kliknij pudełko GOG, pomiń lub obejrzyj animację i wybierz **Pobierz z GOG**. Panel pokazuje instalatory Windows z językiem, rozmiarem i postępem pobierania. Dla gier wieloczęściowych pobierz .exe i wszystkie części .bin do jednego folderu. Instalację uruchamiasz samodzielnie; ARCADE nie uruchamia automatycznie pobranych plików. Po instalacji odśwież bibliotekę. Wykrywanie obejmuje wpisy utworzone przez instalatory GOG w rejestrze Windows.
+
+Przycisk **Odłącz** usuwa sesję GOG z aplikacji oraz zapamiętaną listę posiadanych gier. Nie usuwa gier ani pobranych instalatorów. Dane konta i ciasteczka pozostają wyłącznie w lokalnym folderze cache; nie dołączaj go do zgłoszeń. Obsługa GOG korzysta z interfejsów strony konta, które mogą zmieniać się po stronie sklepu.
 
 ## Dane i prywatność
 
@@ -209,4 +230,4 @@ Zgłoszenia przyjmuję przez [Issues](https://github.com/codewojcik-arch/arcade-
 
 **[@powiedzmiszczerze](https://www.tiktok.com/@powiedzmiszczerze)** — aktualności i prezentacje na TikToku.
 
-Aplikacja jest dostępna bezpłatnie do użytku osobistego. Kod źródłowy jest przechowywany w oddzielnym prywatnym repozytorium. Projekt nie jest udostępniany na licencji MIT ani innej licencji open source. Warunki używania: [LICENSE](LICENSE). Electron, Steam oraz nazwy i grafiki gier zachowują prawa i licencje swoich właścicieli — zobacz [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). ARCADE nie jest oficjalnym produktem Valve.
+Aplikacja jest dostępna bezpłatnie do użytku osobistego. Kod źródłowy jest przechowywany w oddzielnym prywatnym repozytorium. Projekt nie jest udostępniany na licencji MIT ani innej licencji open source. Warunki używania: [LICENSE](LICENSE). Electron, Steam oraz nazwy i grafiki gier zachowują prawa i licencje swoich właścicieli — zobacz [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). ARCADE nie jest oficjalnym produktem Valve ani GOG.
