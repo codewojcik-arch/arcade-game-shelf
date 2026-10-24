@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.10.1 — podziękowanie wyłącznie na starcie aplikacji
+
+- Plansza autora i Czorcika pojawia się automatycznie po uruchomieniu ARCADE, bez klikania gry.
+- Nie pojawia się podczas wybierania ani uruchamiania gier. Pudełko i płyta startują od razu.
+- Przycisk „Przejdź do półki”, automatyczne zamknięcie po 3,8 sekundy oraz jednokrotne pokazanie w danym uruchomieniu aplikacji.
+- Sprawdzono pełny start, pomijanie, automatyczne zamknięcie, ponowne uruchomienie oraz brak podziękowania w pudełkach.
+
 ## 0.10.0 — autor, Czorcik i oprawa filtra
 
 - Autorska ilustracja 3D przedstawiająca @powiedzmiszczerze z kotem Czorcikiem, przygotowana ze zdjęć referencyjnych.
