@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.17.1 — Dopasowanie zegara do półki
+
+- Tarcza zachowuje idealnie okrągłe proporcje i mieści się w ramce obok odczytu cyfrowego.
+- Obudowa, tło tarczy, metal, wskazówki i napisy dopasowują się do wszystkich pięciu motywów półki.
+- Motyw zmienia się od razu, bez zmiany pozycji zegara.
+
 ## 0.17.0 — Zegar i przestawianie widgetów
 
 - Nowy zegar w drewnie i mosiądzu: analogowa tarcza, płynny sekundnik, cyfrowa godzina, data i strefa czasowa Windows.
@@ -313,6 +319,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 
