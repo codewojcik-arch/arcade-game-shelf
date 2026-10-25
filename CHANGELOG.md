@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.15.2 — 2026-10-25
+
+- Naprawiono obsługę brakujących grafik: lokalny serwer zwraca błąd 404 i nadal działa, a po przywróceniu pliku ponownie go udostępnia.
+- Dodano kontrolę wszystkich grafik kolekcji przy sprawdzaniu kodu i budowaniu paczki.
+- Zachowano zapisane pozycje i widoczność figurek.
+
 ## 0.15.1 — usunięcie kociej serii inspirowanej grami
 
 - Usunięte figurki Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra z menu, katalogu, animacji i paczki aplikacji.
@@ -286,3 +292,4 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
