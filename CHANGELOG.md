@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.18.1 — Monitor dopasowany do motywu półki
+
+- Monitor automatycznie przejmuje styl aktywnej półki: Klasyczny, Orzech i mosiądz, Night Shift, Aurora Circuit i Szlak Wilka.
+- Dopasowane obudowa, metal, tarcze, napisy, wybór dysku i kolory wykresów.
+- Wygląd zmienia się natychmiast, bez zmiany odczytów, wybranego dysku i położeń widgetów.
+
 ## 0.18.0 — Dyski zamiast temperatur
 
 - Panel DYSKI wykrywa dostępne lokalne woluminy i nośniki USB bez zewnętrznych programów.
@@ -327,6 +333,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 
