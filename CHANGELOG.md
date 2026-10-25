@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.16.0 — Monitor komputera
+
+- Nowy, niezależny widget CPU / RAM / temperatury w drewniano-metalowej obudowie.
+- Rzeczywiste obciążenie procesora i pamięci, minutowe wykresy oraz płynne wskaźniki.
+- Temperatury CPU, GPU i dysku oraz moc i taktowanie z działającego Libre Hardware Monitor (WMI). Brakujące odczyty pozostają oznaczone jako niedostępne.
+- Przesuwanie za górny pasek, zmiana rozmiaru, zapamiętanie położenia, przywracanie przy starcie i opcja zawsze na wierzchu.
+- Sterowanie z menu ARCADE obok zegara: Monitor komputera.
+
 ## 0.15.2 — 2026-10-25
 
 - Naprawiono obsługę brakujących grafik: lokalny serwer zwraca błąd 404 i nadal działa, a po przywróceniu pliku ponownie go udostępnia.
@@ -292,4 +300,5 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
