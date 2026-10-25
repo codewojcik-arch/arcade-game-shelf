@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.16.1 — Monitor na półce
+
+- Monitor CPU/RAM jest osadzony bezpośrednio w regale, na własnej półce.
+- Skaluje się wraz z aplikacją; dodanie przewija widok do monitora.
+- Brak dodatkowego okna. Zachowane odczyty, wykresy i zapamiętywanie widoczności.
+
 ## 0.16.0 — Monitor komputera
 
 - Nowy, niezależny widget CPU / RAM / temperatury w drewniano-metalowej obudowie.
@@ -300,5 +306,6 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
