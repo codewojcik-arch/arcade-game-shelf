@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.18.0 — Dyski zamiast temperatur
+
+- Panel DYSKI wykrywa dostępne lokalne woluminy i nośniki USB bez zewnętrznych programów.
+- Wybór dysku z listy, procent zajętości, zajęte/wolne GB i pojemność; wybór zachowany po restarcie.
+- Odświeżanie danych co 10 sekund i ręczny przycisk wykrywania nośników.
+- Oddzielna historia każdego dysku, obsługa odłączenia i niedostępnego odczytu.
+- Usunięto odczyty LHM i konfigurację czujników. Pole mocy CPU zastąpione czasem pracy komputera.
+
 ## 0.17.1 — Dopasowanie zegara do półki
 
 - Tarcza zachowuje idealnie okrągłe proporcje i mieści się w ramce obok odczytu cyfrowego.
@@ -319,6 +327,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 
