@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.15.1 — usunięcie kociej serii inspirowanej grami
+
+- Usunięte figurki Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra z menu, katalogu, animacji i paczki aplikacji.
+- Pozostają realistyczny Czort w sześciu pozach oraz sześciu szczurzych antybohaterów.
+- Ustawienia i pozycje pozostałych figurek oraz gier są zachowane. Stare zapisane wybory nie przywracają wycofanej serii.
+- Instalator usuwa znane stare grafiki i materiały poprzedniej kolekcji.
+
+
 ## 0.15.0 — realistyczna kolekcja Czorta
 
 - Sześć nowych figurek kota autora: Spokojny, Nastroszony, Na plecach, Przyczajony, Ziewający i Z łapką.

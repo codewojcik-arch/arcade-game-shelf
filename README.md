@@ -17,7 +17,14 @@
 
 ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Półki możesz ozdobić kolekcją animowanych figurek.
 
-<img src="docs/screenshots/gaming.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
+<img src="docs/screenshots/czort-collection.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
+
+## 0.15.1 — usunięcie kociej serii inspirowanej grami
+
+- Usunięte figurki Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra z menu, katalogu, animacji i paczki aplikacji.
+- Pozostają realistyczny Czort w sześciu pozach oraz sześciu szczurzych antybohaterów.
+- Ustawienia i pozycje pozostałych figurek oraz gier są zachowane. Stare zapisane wybory nie przywracają wycofanej serii.
+- Instalator usuwa znane stare grafiki i materiały poprzedniej kolekcji.
 
 ## 0.15.0 — realistyczna kolekcja Czorta
 
@@ -109,33 +116,6 @@ Po aktualizacji: menu obok zegara → Biblioteka Steam i GOG → GOG · połącz
 
 Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzenie uprawnień do plików oraz pobieranie pliku testowego w natywnym oknie. Sprawdzono otwarcie formularza GOG bez zalogowania; pełny import i pobieranie z rzeczywistego konta wymagają zalogowania użytkownika.
 
-## 0.8.1 — oczy, woda i ogień figurek
-
-- Indywidualnie dopasowane mruganie i subtelny ruch spojrzenia wszystkich dziesięciu kotów.
-- Falowanie i refleksy na błękitnych smugach Zephyra oraz Kaia; migoczące płomienie, ciepłe światło i żar u Brima oraz Neko.
-- Dopasowany ruch miętowej energii Sory, kryształów Nyx, duchów Luny, zieleni Mori, hologramów Pixa i kul Vyry.
-- Efekty ograniczone do właściwych fragmentów ilustracji. Animacje wstrzymują się poza widokiem oraz podczas uruchamiania gry.
-
-## 0.8.0 — pełna animowana kolekcja kotów
-
-- Dziesięć figurek: Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra.
-- Subtelny ruch postaci przy nieruchomych podstawkach, animowane efekty dopasowane do żywiołu oraz krótka reakcja po kliknięciu podstawki.
-- Same imiona z efektem graweru na przedniej części metalowych podstawek. Napisy zachowują perspektywę podstawy.
-- Osobne przestawianie, zapisywanie i włączanie każdej figurki. Menu obok zegara pozwala pokazać lub ukryć cały zestaw.
-- Zachowane ustawienia Zephyra z poprzedniej wersji, układanie wielu figurek bez nachodzenia na siebie i skalowanie do 4K.
-
-<img src="docs/screenshots/collection.png" alt="Pełna animowana kolekcja dziesięciu kocich figurek w ARCADE" width="1200">
-
-## 0.7.0 — pierwsza figurka kolekcjonerska
-
-- Zephyr · Strażnik Wiatru: autorska figurka białego kota na metalowej podstawce, z niebieskimi kryształami i efektem energii.
-- Szczegółowy render z wyglądem 3D, delikatne przechylenie, połysk i cień na półce.
-- Przeciąganie za podstawkę między półkami oraz zapisywanie pozycji.
-- Menu obok zegara: Figurki kolekcjonerskie → pokaż/ukryj Zephyra lub przywróć pozycję.
-- Skalowanie do wielkości półek; sylwetka figurki przepuszcza kliknięcia do gier, aktywna jest tylko podstawka.
-
-<img src="docs/screenshots/zephyr.png" alt="Figurka Zephyr na półce w ARCADE" width="1000">
-
 ## 0.6.12 — stabilny obszar klikania pudełek
 
 - Naprawiono kliknięcia przy dolnej krawędzi pudełka: efekt najechania nie podnosi już przycisku spod kursora.
@@ -199,7 +179,7 @@ Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przod
 
 ## Instalator i Aurora Circuit
 
-Pobierz **ARCADE-Setup-0.15.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.15.1-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
@@ -226,12 +206,12 @@ Większe pudełka i dopasowane do długości tytułów napisy. Przeciągnij gór
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.15.0-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.15.1-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
 4. Ustawienia, motywy, figurki i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.15.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.15.1-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 
