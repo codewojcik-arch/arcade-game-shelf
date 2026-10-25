@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.14.1 — wyraźniejsze figurki
+
+- Pełna jakość oryginalnych grafik zamiast zastępowania całej sylwetki pomniejszonym płótnem animacji.
+- Animowane oczy i efekty są osobnymi nakładkami; ich rozdzielczość uwzględnia skalowanie Windows i dodatkowe próbkowanie.
+- Usunięte ciągłe rozciąganie sylwetek oraz cień wokół samych nakładek oczu.
+- Dokładniejsze ustawianie figurek na siatce pikseli. Zachowane mruganie, dym, światła, grawerowane imiona i przestawianie.
+- Sprawdzone skalowanie 100% i 150% oraz okna do 4K.
+
+
 ## 0.14.0 — szczurzy antybohaterowie
 
 - Sześć nowych figurek: Operator, Don, Vigilante, Outlaw, Detective i Seeker.
