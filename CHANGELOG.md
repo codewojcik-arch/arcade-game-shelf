@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.17.0 — Zegar i przestawianie widgetów
+
+- Nowy zegar w drewnie i mosiądzu: analogowa tarcza, płynny sekundnik, cyfrowa godzina, data i strefa czasowa Windows.
+- Monitor i zegar można przeciągać za górny pasek pomiędzy półkami i ustawiać poziomo.
+- Wspólne skalowanie instrumentów na tej samej półce i zapamiętywanie indywidualnych pozycji.
+- Dodawanie i ukrywanie zegara z menu obok zegara systemowego.
+
 ## 0.16.1 — Monitor na półce
 
 - Monitor CPU/RAM jest osadzony bezpośrednio w regale, na własnej półce.
@@ -306,6 +313,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 
