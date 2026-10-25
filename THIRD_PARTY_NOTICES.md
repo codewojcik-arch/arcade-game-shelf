@@ -33,3 +33,7 @@ Tekstura przydymionego drewna została przygotowana z pomocą generowania obraz�
 ## Szczurzy antybohaterowie
 
 Sześć renderów figurek przygotowano z pomocą imagegen na podstawie referencji dostarczonych przez użytkownika. Referencje nie są dystrybuowane. Dym, światła i pozostałe efekty są rysowane przez aplikację. Opis: `assets/RAT-COLLECTION.md`.
+
+## Realistyczny Czort
+
+Sześć renderów kolekcjonerskich przygotowano przez imagegen na podstawie referencji udostępnionych przez użytkownika. Referencje nie są dystrybuowane. Opis: `assets/CZORT-COLLECTION.md`.

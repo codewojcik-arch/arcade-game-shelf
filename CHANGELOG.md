@@ -1,5 +1,14 @@
 # Historia zmian
 
+## 0.15.0 — realistyczna kolekcja Czorta
+
+- Sześć nowych figurek kota autora: Spokojny, Nastroszony, Na plecach, Przyczajony, Ziewający i Z łapką.
+- Zachowany wygląd ciemnego futra, puszystego ogona i charakterystycznych oczu; grawer CZORT na każdej podstawie.
+- Delikatne mruganie wyłącznie złotym okiem, bez zmiany wyglądu drugiego oka.
+- Osobna seria w menu i dwie półki, indywidualna widoczność i przestawianie; zachowane ustawienia dotychczasowych figurek.
+- Ostre grafiki i lekkie lokalne nakładki animacji, bez dodawania kolejnych kontekstów WebGL.
+
+
 ## 0.14.1 — wyraźniejsze figurki
 
 - Pełna jakość oryginalnych grafik zamiast zastępowania całej sylwetki pomniejszonym płótnem animacji.
