@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.20.0 — Cztery realistyczne motywy
+
+- Zachowany dotychczasowy Orzech i mosiądz oraz trzy nowe materiały: Atelier (ciemny orzech), Nordic (jasny dąb i aluminium), Obsidian (czarny dąb i grafit).
+- Nowe fotorealistyczne tekstury drewna, dopasowane okucia, oświetlenie półek, napisy i filtr biblioteki.
+- Wspólna oprawa zegara, monitora i okien aplikacji.
+- Usunięte motywy Klasyczny, Night Shift, Aurora i Szlak Wilka oraz ich pliki i grafiki. Zapisany wybór wycofanego motywu przechodzi na realistyczny.
+- Zachowane układy gier, figurek i widgetów. Sprawdzone cztery motywy od małego okna do 4K.
+
 ## 0.19.1 — Czort bez mrugania
 
 - Usunięta animacja mrugania ze wszystkich sześciu figurek Czorta.
@@ -347,6 +355,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 

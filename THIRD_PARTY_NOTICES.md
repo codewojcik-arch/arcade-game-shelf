@@ -24,11 +24,11 @@ GOG oraz nazwy, okładki i instalatory gier pozostają materiałami odpowiednich
 
 ## Podziękowanie autora
 
-Ilustracja autora z kotem Czorcikiem została przygotowana z pomocą generowania obrazów AI na podstawie fotografii dostarczonych przez autora. Oryginalne fotografie nie są dołączane do aplikacji. Opis przygotowania: `assets/CREATOR-INTRO.md`.
+Aktualna ilustracja gracza i psotnego kota została dostarczona przez autora i jest używana w oryginalnej jakości oraz z przezroczystością. Poprzedni portret został usunięty z aplikacji. Opis przygotowania: `assets/CREATOR-INTRO.md`.
 
-## Szlak Wilka
+## Realistyczne materiały meblowe
 
-Tekstura przydymionego drewna została przygotowana z pomocą generowania obrazów AI. Wektorowy medalion wilka jest grafiką narysowaną na potrzeby ARCADE. Opis materiałów: `assets/WOLF-THEME.md`.
+Nowe tekstury orzecha i dębu w wariantach Atelier, Nordic i Obsidian przygotowano narzędziem imagegen. Opis materiałów: `assets/THEMES.md`. Dotychczasowy materiał motywu Orzech i mosiądz został zachowany.
 
 ## Szczurzy antybohaterowie
 
@@ -37,3 +37,4 @@ Sześć renderów figurek przygotowano z pomocą imagegen na podstawie referencj
 ## Realistyczny Czort
 
 Sześć renderów kolekcjonerskich przygotowano przez imagegen na podstawie referencji udostępnionych przez użytkownika. Referencje nie są dystrybuowane. Opis: `assets/CZORT-COLLECTION.md`.
+

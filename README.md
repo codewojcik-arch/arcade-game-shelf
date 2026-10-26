@@ -1,285 +1,77 @@
-<p align="center"><img src="docs/banner.svg" alt="ARCADE — Twoja strefa gry" width="100%"></p>
+# ARCADE — Twoja półka gier
 
-<p align="center">
-  <strong>Twoje gry. Twoja półka. Twój styl.</strong><br>
-  Gamingowy widget Steam i GOG na pulpit Windows — od @powiedzmiszczerze.
-</p>
+[![ARCADE](docs/banner.svg)](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)
 
-<p align="center">
-  <a href="https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest">Pobierz na Windows</a> ·
-  <a href="https://www.tiktok.com/@powiedzmiszczerze">TikTok autora</a> ·
-  <a href="https://github.com/codewojcik-arch/arcade-game-shelf/issues">Zgłoś problem / pomysł</a>
-</p>
+Biblioteka Steam i GOG jako przestrzenna półka na pulpicie Windows. Pudełka ustawiasz po swojemu, figurki zdobią regał, a zegar i monitor komputera stoją obok gier.
 
----
+**[Pobierz instalator ARCADE 0.20.0](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.20.0/ARCADE-Setup-0.20.0-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.20.0/ARCADE-0.20.0-win-x64.zip) · [Historia zmian](CHANGELOG.md)
 
-## Zmień bibliotekę Steam i GOG w część swojego setupu
+## Cztery realistyczne motywy
 
-ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ustaw widget na pulpicie, przeciągnij pudełka tak, jak lubisz, i wybierz grę. Półki możesz ozdobić kolekcją animowanych figurek.
+W menu ARCADE obok zegara systemowego wybierz **Motyw graficzny**. Każdy wariant dopasowuje drewno, metal, światło, filtr biblioteki, zegar, monitor i okna aplikacji.
 
-<img src="docs/screenshots/czort-collection.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
-
-## 0.19.1 — usunięcie kociej serii inspirowanej grami
-
-- Usunięte figurki Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra z menu, katalogu, animacji i paczki aplikacji.
-- Pozostają realistyczny Czort w sześciu pozach oraz sześciu szczurzych antybohaterów.
-- Ustawienia i pozycje pozostałych figurek oraz gier są zachowane. Stare zapisane wybory nie przywracają wycofanej serii.
-- Instalator usuwa znane stare grafiki i materiały poprzedniej kolekcji.
-
-## 0.15.0 — realistyczna kolekcja Czorta
-
-- Sześć nowych figurek kota autora: Spokojny, Nastroszony, Na plecach, Przyczajony, Ziewający i Z łapką.
-- Zachowany wygląd ciemnego futra, puszystego ogona i charakterystycznych oczu; grawer CZORT na każdej podstawie.
-- Oryginalny wygląd obu oczu we wszystkich figurkach Czorta — bez animacji mrugania.
-- Osobna seria w menu i dwie półki, indywidualna widoczność i przestawianie; zachowane ustawienia dotychczasowych figurek.
-- Ostre grafiki i lekkie lokalne nakładki animacji, bez dodawania kolejnych kontekstów WebGL.
-
-<img src="docs/screenshots/czort-collection.png" alt="Sześć realistycznych figurek Czorta na półkach ARCADE" width="1200">
-
-## 0.14.1 — wyraźniejsze figurki
-
-- Pełna jakość oryginalnych grafik zamiast zastępowania całej sylwetki pomniejszonym płótnem animacji.
-- Animowane oczy i efekty są osobnymi nakładkami; ich rozdzielczość uwzględnia skalowanie Windows i dodatkowe próbkowanie.
-- Usunięte ciągłe rozciąganie sylwetek oraz cień wokół samych nakładek oczu.
-- Dokładniejsze ustawianie figurek na siatce pikseli. Zachowane mruganie, dym, światła, grawerowane imiona i przestawianie.
-- Sprawdzone skalowanie 100% i 150% oraz okna do 4K.
-
-## 0.14.0 — szczurzy antybohaterowie
-
-- Sześć nowych figurek: Operator, Don, Vigilante, Outlaw, Detective i Seeker.
-- Mruganie odsłoniętymi oczami, dym i żar cygara/papierosa, pulsujący wizjer i radio, pustynny pył, światło latarni oraz artefakt i ekran detektora.
-- Własne efekty przy rekwizytach każdej figurki, grawerowane imiona i niezależne przestawianie.
-- Dwie serie w menu obok zegara; można pokazać lub ukryć całą serię. Dodatkowe półki mieszczą nową kolekcję bez przestawiania zapisanych gier.
-- Animacje respektują ograniczenie ruchu i pauzują podczas otwierania gier.
-
-<img src="docs/screenshots/rats.png" alt="Szczurzy antybohaterowie na półkach ARCADE" width="1200">
-
-## 0.13.1 — imiona grawerowane na podstawach
-
-- Na figurkach pozostają tylko imiona, bez podpisów ról.
-- Napisy znajdują się na metalowym froncie oryginalnej podstawy z efektem zagłębionego graweru.
-- Imiona poruszają się razem z podstawą; usunięte osobne prostokątne etykiety i ich wariant w motywie Szlak Wilka.
-
-## 0.13.0 — półka bez petów i poprawiony Brim
-
-- Usunięte wszystkie pety, ich animacje, grafiki i opcje w menu.
-- Aktualizacja sprząta stare pliki petów; biblioteka, układ gier i figurki pozostają zachowane.
-- Poprawiona figurka Brim: dwoje uszu, bez dodatkowego ucha za beretem.
-
-## 0.11.0 — Szlak Wilka
-
-- Nowy motyw dark fantasy inspirowany wiedźmińskim klimatem: przydymiony dąb, ciemne żelazo, srebrne okucia i spokojne światło.
-- Autorska tekstura drewna, wektorowy medalion wilka, nagłówki w stylu dawnych ksiąg i czytelne tytuły pudełek.
-- Spójna oprawa filtra biblioteki, tabliczek figurek, okien uruchamiania gry, Steam, GOG, aktualizacji oraz planszy powitalnej.
-- Delikatna animacja światła półek z obsługą ograniczonego ruchu.
-- Motyw dostępny obok pozostałych: menu obok zegara → Motyw graficzny → Dark fantasy · Szlak Wilka. Wybór jest zapamiętywany.
-
-<img src="docs/screenshots/wolf.png" alt="Motyw dark fantasy Szlak Wilka w aplikacji ARCADE" width="1200">
-
-## 0.10.1 — podziękowanie wyłącznie na starcie aplikacji
-
-- Plansza autora i Czorcika pojawia się automatycznie po uruchomieniu ARCADE, bez klikania gry.
-- Nie pojawia się podczas wybierania ani uruchamiania gier. Pudełko i płyta startują od razu.
-- Przycisk „Przejdź do półki”, automatyczne zamknięcie po 3,8 sekundy oraz jednokrotne pokazanie w danym uruchomieniu aplikacji.
-- Sprawdzono pełny start, pomijanie, automatyczne zamknięcie, ponowne uruchomienie oraz brak podziękowania w pudełkach.
-
-## 0.10.0 — autor, Czorcik i oprawa filtra
-
-- Autorska ilustracja 3D przedstawiająca @powiedzmiszczerze z kotem Czorcikiem, przygotowana ze zdjęć referencyjnych.
-- Krótkie podziękowanie przy wybieraniu gry, przed dotychczasową animacją pudełka i napędu: płynne pojawienie, delikatne zbliżenie, refleks światła i tekst.
-- Przycisk „Przejdź do gry”, automatyczne przejście po 3,8 sekundy i obsługa ograniczonego ruchu. Zamknięcie okna anuluje przejście.
-- Przełącznik „Wszystkie gry / Tylko zainstalowane” dobiera tło, obrys, tekst i aktywny stan do motywu: Klasyczny, Orzech i mosiądz, Gaming oraz Aurora.
-- Skalowanie podziękowania od małego widgetu do Full HD, 1440p i 4K.
-
-<img src="docs/screenshots/creator-intro.png" alt="Podziękowanie autora ARCADE z kotem Czorcikiem" width="1000">
-
-## 0.9.1 — ukrywanie niezainstalowanych gier
-
-- Przełącznik „Wszystkie gry / Tylko zainstalowane” bezpośrednio na dole półki, dostępny w każdym motywie.
-- Szybka opcja „Ukryj niezainstalowane gry” w głównym menu obok zegara.
-- Wspólny filtr dla Steam i GOG, zapamiętywany po zamknięciu aplikacji. Przełączenie widoku zachowuje ustawienie pudełek.
-- Połączenie z GOG zachowuje wybrany filtr zamiast automatycznie pokazywać całą bibliotekę.
-- Pusta półka pokazuje komunikat zamiast przykładowych niezainstalowanych gier.
-
-Sprawdzono przełączanie na mieszanej bibliotece Steam i GOG, zapis ustawienia, pustą bibliotekę oraz klikalność przycisku we wszystkich czterech motywach.
-
-## 0.9.0 — biblioteka GOG i pobieranie gier
-
-- Logowanie na oficjalnej stronie GOG w osobnym oknie i zapamiętywanie sesji lokalnie. Bez formularza hasła w ARCADE.
-- Import posiadanych gier GOG, również ukrytych, oraz automatyczne okładki. Wspólna półka Steam i GOG z oznaczeniem sklepu.
-- Wybór instalatorów Windows według języka i rozmiaru, pobieranie do wybranego folderu, postęp, anulowanie i pokazanie pobranego pliku.
-- Wykrywanie gier zarejestrowanych przez instalatory GOG na Windows i ich uruchamianie z półki.
-- Filtr wszystkich lub tylko zainstalowanych gier, zapisywanie ustawienia pudełek oraz panel skalujący się od małego widgetu do 4K.
-- Odłączenie konta usuwa lokalną sesję i zaimportowaną listę.
-
-Po aktualizacji: menu obok zegara → Biblioteka Steam i GOG → GOG · połącz konto / pobieranie. Po zalogowaniu wybierz grę na półce i kliknij „Pobierz z GOG”. Przy instalatorach wieloczęściowych pobierz .exe i wszystkie odpowiadające pliki .bin do jednego folderu, potem uruchom instalator.
-
-Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzenie uprawnień do plików oraz pobieranie pliku testowego w natywnym oknie. Sprawdzono otwarcie formularza GOG bez zalogowania; pełny import i pobieranie z rzeczywistego konta wymagają zalogowania użytkownika.
-
-## 0.6.12 — stabilny obszar klikania pudełek
-
-- Naprawiono kliknięcia przy dolnej krawędzi pudełka: efekt najechania nie podnosi już przycisku spod kursora.
-- Zachowano podświetlenie, obrys i rozjaśnienie gry w każdym motywie.
-- Kliknięcie działa bez konieczności przenoszenia pudełka na inną półkę.
-- Dodano testy górnej i dolnej krawędzi oraz środka pudełek na każdej półce w motywach Realistycznym, Gaming i Aurora.
-
-## 0.6.10 — pełnoekranowe pudełko i napęd
-
-- Widok uruchamiania wypełnia całe okno aplikacji.
-- Pudełko, napęd i płyta skalują się do szerokości oraz wysokości, bez stałego limitu wielkości.
-- Czytelniejsze, skalowane przyciski i tekst; pionowy układ na wąskich ekranach.
-- Zachowano wkładanie płyty od góry i jej nadruk.
-
-## 0.6.9 — wkładanie płyty od góry
-
-- Usunięto szufladkę napędu.
-- Płyta unosi się z pudełka, ustawia nad napędem i delikatnie opada na trzpień.
-- Osadzenie i docisk poprzedzają rozruch silnika; zachowano nadruk wybranej gry.
-
-## 0.6.8 — duże pudełko i napęd
-
-- Usunięto grafikę komputera z animacji uruchamiania gry.
-- Powiększone pudełko po lewej i samodzielny napęd z obracającą się płytą po prawej.
-- Tacka wysuwa się bezpośrednio z napędu; płyta zachowuje grafikę wybranej gry.
-- Układ dopasowuje się do rozmiaru okna, a na wąskim ekranie elementy ustawiają się jeden pod drugim.
-
-<img src="docs/screenshots/standalone-drive.png" alt="Duże pudełko gry i samodzielny napęd optyczny" width="900">
-
-## 0.6.1 — poprawione klikanie gier
-
-- Kliknięcie pudełka otwiera animację również przy drobnym ruchu myszy.
-- Przeciąganie zaczyna się po wyraźnym ruchu; puszczenie pudełka zapisuje pozycję bez otwierania gry.
-- Po przestawieniu gry można od razu ponownie otworzyć pudełko.
-
-## 0.6.0 — aktualizacje prosto z aplikacji
-
-ARCADE sprawdza GitHub przy uruchomieniu, co godzinę i po wybudzeniu komputera. Gdy pojawi się nowsze stabilne wydanie, kafelek pokazuje **numer wersji, co nowego i przycisk Zaktualizuj i uruchom ponownie**.
-
-Aplikacja pobiera oficjalny instalator, weryfikuje sumę SHA-256, aktualizuje ten sam folder i uruchamia się ponownie. Układ półki, figurki, motyw i połączenie Steam są zachowane. Po przejściu na aktualną wersję kafelek oraz lista zmian znikają. Można też wybrać **Sprawdź aktualizacje** w menu obok zegara.
-
-<img src="docs/screenshots/update-card.png" alt="Przykładowy kafelek aktualizacji — testowe dane następnej wersji" width="650">
-
-_Zrzut przedstawia dane testowe kafelka, a nie zapowiedź konkretnego wydania._
-
-**Ważne przy przejściu ze starszych wersji:** instalator 0.6.0 trzeba uruchomić raz ręcznie. Dopiero ta wersja dodaje aktualizowanie z aplikacji. Sprawdzanie nie wymaga logowania do GitHuba. Bez połączenia powiadomienie nie blokuje półki; nieudane pobieranie można ponowić. Instalacja rozpoczyna się po kliknięciu przycisku przez użytkownika.
-
-## Nadruki płyt i wnętrze napędu
-
-Każda płyta ma nadruk z okładki wybranej gry: w otwartym pudełku, podczas przenoszenia, na tacce i wewnątrz napędu. Pudełko otwiera się na zawiasie, odsłania wkładkę, zaczepy i uchwyt płyty. Nowa grafika komputera retro i zbliżenie mechanizmu pokazują docisk, rozruch płyty oraz ruch głowicy optycznej.
-
-<img src="docs/screenshots/cinema-transfer.png" alt="Otwarte pudełko z wkładką, płyta z nadrukiem gry i komputer retro" width="800">
-
-<img src="docs/screenshots/drive-inside.png" alt="Wnętrze napędu CD-ROM z obracającą się płytą z okładką gry" width="800">
-
-Pełna sekwencja trwa około 10 sekund. **Pomiń animację** od razu udostępnia przycisk **Graj**. Systemowe ograniczenie ruchu pomija przejścia i obrót. Gdy nie uda się pobrać okładki, płyta zachowuje czytelny tytuł.
-
-## Grzbiety i otwieranie gier
-
-Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przodem został usunięty. Kliknięcie gry otwiera animowane pudełko, wkłada płytę do napędu retro PC i odblokowuje przycisk **Graj**. Następne kliknięcie odzyskuje działanie również po przerwanym przeciąganiu.
-
-## Instalator i Aurora Circuit
-
-Pobierz **ARCADE-Setup-0.19.1-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
-
-**Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
-
-<img src="docs/screenshots/aurora.png" alt="ARCADE Aurora Circuit — animowane światło i obwody" width="800">
-
-
-## Skalowanie i dynamiczne okno
-
-Większe pudełka i dopasowane do długości tytułów napisy. Przeciągnij górną listwę do górnej krawędzi monitora: zobaczysz podświetlony podgląd docelowego obszaru. Puść, aby dopasować szafkę do dostępnego ekranu, lub odsuń kursor, aby anulować podgląd. Zmieniaj rozmiar za dowolną krawędź lub narożnik; podczas przeciągania widać aktualne wymiary. Nadmiar gier i półek jest przewijany, żeby zachować czytelność.
-
-<img src="docs/screenshots/responsive.png" alt="Większe pudełka dopasowane do rozmiaru szafki" width="650">
-
-## Co potrafi ARCADE?
-
-| Funkcja | Jak działa |
+| Motyw | Materiały |
 | --- | --- |
-| Twoja kolekcja Steam | Automatyczne wykrywanie zainstalowanych gier i pobieranie okładek. |
-| Cała biblioteka | Połączenie przez Steam Web API pokazuje także posiadane, niezainstalowane gry. |
-| Układ po swojemu | Przeciąganie pudełek między półkami, zapis układu i dopasowanie do okna. |
-| Grzbiety z tytułami | Gry ustawione krawędzią pudełka; kliknięcie otwiera pudełko i animację płyty. |
-| Gamingowy wygląd | Motyw Night Shift: grafit, ciemne drewno oraz turkusowo-fioletowe światło. Dostępne także Aurora Circuit, motyw realistyczny i klasyczny. |
-| Klimat lat 90. | Animowane pudełko, wyciąganie płyty i wkładanie jej do napędu retro PC. |
-| Wygodny pulpit | Menu obok zegara, opcjonalny autostart i tryb zawsze na wierzchu. |
+| Orzech i mosiądz | Zachowany dotychczasowy motyw realistyczny |
+| Atelier | Ciemny amerykański orzech, satynowy mosiądz i ciepłe światło |
+| Nordic | Naturalny jasny dąb, szczotkowane aluminium i czytelne grafitowe instrumenty |
+| Obsidian | Czarny dąb, grafit i przygaszone metalowe akcenty |
 
-## Pobierz i uruchom
+### Atelier
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.19.1-win-x64.exe**.
-2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
-3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
-4. Ustawienia, motywy, figurki i zamknięcie znajdziesz pod ikoną obok zegara Windows.
+![Ciemny orzech i mosiądz](docs/screenshots/theme-walnut.png)
 
-Alternatywnie pobierz **ARCADE-0.19.1-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+### Nordic
 
-**Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
+![Jasny dąb i aluminium](docs/screenshots/theme-oak.png)
 
-Przesuwaj widget za górną listwę. Dwuklik listwy powiększa lub przywraca szafkę; przeciągnięcie do górnej krawędzi ekranu i puszczenie również ją powiększa. Zamknięcie z menu w zasobniku kończy aplikację.
+### Obsidian
 
-## Wszystkie gry czy tylko zainstalowane?
+![Czarny dąb i grafit](docs/screenshots/theme-ebony.png)
 
-W menu obok zegara wybierz **Biblioteka Steam i GOG → Tylko zainstalowane / Wszystkie posiadane gry**. Aplikacja zapamięta wybór.
+Dotychczasowe motywy Klasyczny, Night Shift, Aurora i Szlak Wilka zostały usunięte. Zapisany wybór wycofanego motywu przechodzi na Orzech i mosiądz, z zachowaniem układu gier, figurek i widgetów.
 
-Zainstalowane gry są wykrywane lokalnie bez klucza API. Pełna lista posiadanych gier wymaga jednorazowego wejścia w **Połącz konto / ustawienia** i wklejenia własnego klucza Steam Web API. SteamID jest wykrywany automatycznie; można go zmienić. Przycisk w formularzu otwiera oficjalną stronę Steam. Szczegóły gier na profilu muszą być dostępne dla API. Aplikacja nie pyta o hasło do Steam.
+## Biblioteka Steam i GOG
 
-Przycisk **Zainstaluj w Steam** otwiera instalację niezainstalowanej gry w kliencie Steam. ARCADE nie pobiera plików gier samodzielnie i nie zastępuje Steam.
+- Automatyczne wykrywanie zainstalowanych gier Steam i pobieranie okładek.
+- Opcjonalne połączenie kont Steam i GOG, by pokazać również posiadane niezainstalowane tytuły.
+- Filtr **Tylko zainstalowane / Wszystkie gry** na dole półki i w menu obok zegara.
+- Pobieranie dostępnych instalatorów posiadanych gier GOG po połączeniu konta.
+- Przeciąganie pudełek między półkami i zapamiętywanie ustawień.
+- Kliknięcie grzbietu otwiera pudełko, animację płyty i napędu oraz przycisk uruchomienia gry. Animację można pominąć.
 
-## Konto GOG
+## Zegar i monitor na półce
 
-W menu obok zegara wybierz **Biblioteka Steam i GOG → GOG · połącz konto / pobieranie**, a następnie **Połącz z GOG**. Zaloguj się na oficjalnej stronie GOG. Po połączeniu aplikacja zachowa wybrany filtr. Przycisk na dole półki przełącza widok między wszystkimi grami a tylko zainstalowanymi.
+Włącz **Zegar na półce** lub **Monitor komputera → Pokaż monitor** w menu obok zegara systemowego. Oba widgety przeciągniesz za górny pasek na inną półkę. Pozycje i widoczność są zapamiętywane; instrumenty dopasowują się do dostępnego miejsca.
 
-Kliknij pudełko GOG, pomiń lub obejrzyj animację i wybierz **Pobierz z GOG**. Panel pokazuje instalatory Windows z językiem, rozmiarem i postępem pobierania. Dla gier wieloczęściowych pobierz .exe i wszystkie części .bin do jednego folderu. Instalację uruchamiasz samodzielnie; ARCADE nie uruchamia automatycznie pobranych plików. Po instalacji odśwież bibliotekę. Wykrywanie obejmuje wpisy utworzone przez instalatory GOG w rejestrze Windows.
+Zegar pokazuje wskazówki z płynnym sekundnikiem, cyfrową godzinę, polską datę i strefę Windows. Monitor prezentuje rzeczywiste obciążenie CPU, wykorzystanie RAM, czas pracy PC i zajętość wybranego dysku.
 
-Przycisk **Odłącz** usuwa sesję GOG z aplikacji oraz zapamiętaną listę posiadanych gier. Nie usuwa gier ani pobranych instalatorów. Dane konta i ciasteczka pozostają wyłącznie w lokalnym folderze cache; nie dołączaj go do zgłoszeń. Obsługa GOG korzysta z interfejsów strony konta, które mogą zmieniać się po stronie sklepu.
+Panel **DYSKI** wykrywa dostępne lokalne woluminy Windows, np. C: i D:, oraz podłączone dyski USB. Pokazuje zajęte i wolne GB oraz pojemność. Zapamiętuje wybrany dysk, odświeża dane co 10 sekund i ma przycisk ręcznego odświeżania. Monitor działa bez dodatkowych programów do czujników.
 
-## Dane i prywatność
+## Figurki kolekcjonerskie
 
-- Ustawienia, układ, okładki i ostatnia pobrana lista gier są zapisywane lokalnie w `cache/`.
-- Klucz Steam Web API jest zapisywany lokalnie w `cache/steam/connection.json` i używany do zapytań do oficjalnego API Steam. Nie udostępniaj tego pliku.
-- Gotowa paczka nie zawiera konta, klucza API, ustawień ani zapisanej biblioteki autora.
-- Okładki są pobierane z usług Steam/Valve. Odnośnik do TikToka otwiera profil autora po kliknięciu.
+Na półkach możesz ustawić sześć realistycznych figurek Czorta i sześciu szczurzych antybohaterów. Mają grawerowane imiona i indywidualnie zapamiętywane pozycje. Przeciągnij podstawkę, aby przestawić figurkę. Czort zachowuje oryginalny wygląd oczu bez animacji mrugania. Szczurza kolekcja ma dopasowane efekty światła, dymu i rekwizytów.
 
-Przed przeniesieniem folderu aplikacji wyłącz autostart. Po przeniesieniu włącz go ponownie, aby Windows zapamiętał nową lokalizację EXE.
+![Realistyczna kolekcja Czorta](docs/screenshots/czort-collection.png)
 
-## Problemy i pomysły
+## Powitanie od autora
 
-Zgłoszenia przyjmuję przez [Issues](https://github.com/codewojcik-arch/arcade-game-shelf/issues). Opisz, co się stało, podaj wersję Windows i aplikacji oraz kroki do odtworzenia. Nie dołączaj klucza API, pliku połączenia ani całego folderu `cache/`.
+Nowa ilustracja gracza i psotnego kota wita po uruchomieniu ARCADE: lekkie kołysanie, zabawny dymek i podziękowanie za korzystanie z aplikacji. Powitanie trwa 3,8 sekundy i można je pominąć. Nie pojawia się podczas otwierania gier. Aplikacja respektuje ograniczenie ruchu w systemie.
+
+![Powitanie autora i kota](docs/screenshots/creator-intro.png)
+
+## Instalacja i obsługa
+
+1. Pobierz **ARCADE-Setup-0.20.0-win-x64.exe** z sekcji Releases i uruchom instalator.
+2. Przy aktualizacji wybierz dotychczasowy folder aplikacji. Ustawienia pozostają zachowane.
+3. Steruj aplikacją z jej ikony obok zegara Windows. Tam zmienisz motyw, widoczność kolekcji, autostart i sprawdzisz aktualizacje.
+
+Wersję ZIP rozpakuj w całości i uruchom **ARCADE.exe**. Zachowaj razem folder `runtime`, grafiki i pliki aplikacji. Wymagany Windows 10/11 x64. Nowe wydania są dostępne również przez kartę aktualizacji w aplikacji.
+
+Górny uchwyt pozwala przesuwać regał, krawędzie zmieniają jego rozmiar, a przeciągnięcie do góry ekranu dopasowuje go do obszaru roboczego. Skalowanie obsługuje Full HD, 1440p i 4K.
 
 ## Autor
 
-**[@powiedzmiszczerze](https://www.tiktok.com/@powiedzmiszczerze)** — aktualności i prezentacje na TikToku.
+**[@powiedzmiszczerze na TikToku](https://www.tiktok.com/@powiedzmiszczerze)**
 
-Aplikacja jest dostępna bezpłatnie do użytku osobistego. Kod źródłowy jest przechowywany w oddzielnym prywatnym repozytorium. Projekt nie jest udostępniany na licencji MIT ani innej licencji open source. Warunki używania: [LICENSE](LICENSE). Electron, Steam oraz nazwy i grafiki gier zachowują prawa i licencje swoich właścicieli — zobacz [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). ARCADE nie jest oficjalnym produktem Valve ani GOG.
-
-
-
-## Monitor komputera
-
-W menu ARCADE obok zegara wybierz **Monitor komputera → Pokaż monitor**. Widget stojący bezpośrednio na półce pokazuje rzeczywiste obciążenie CPU, wykorzystanie RAM i minutową historię odczytów. Monitor skaluje się razem z ARCADE. Przeciągnij go za górny pasek na dowolną półkę. Położenie i widoczność są zapamiętywane.
-
-![Monitor CPU i RAM](docs/screenshots/monitor.png)
-
-Panel DYSKI wykrywa dostępne lokalne woluminy Windows (np. C: i D:) oraz podłączone dyski USB. Wybierz dysk z listy, aby zobaczyć zajętość, pojemność i wolne miejsce w GB. Wybór jest zapamiętywany. Dane odświeżają się co 10 sekund lub przyciskiem „Odśwież dyski”. CPU, RAM, czas pracy i dyski działają bez dodatkowych programów. Bazowe taktowanie procesora z systemu jest wyraźnie opisane.
-
-
-
-
-
-
-## Zegar na półce
-
-W menu obok zegara włącz **Zegar na półce**. Drewniano-mosiężny zegar ma tarczę ze wskazówkami, płynny sekundnik, cyfrową godzinę oraz polską datę. Korzysta z lokalnego czasu i strefy Windows.
-
-Zegar i monitor można przeciągać za górny pasek między półkami. Gdy stoją obok siebie, dopasowują rozmiar do dostępnego miejsca. Pozycje są zachowywane po restarcie.
-
-
-
-Obudowa zegara i tarcza automatycznie dopasowują materiały oraz kolory do motywu półki: Klasyczny, Orzech i mosiądz, Night Shift, Aurora Circuit lub Szlak Wilka.
-
-
-
-
-Monitor systemu również automatycznie dopasowuje obudowę, tarcze, napisy i kolory wykresów do aktywnego motywu półki. Zmiana stylu nie wymaga restartu ani ponownego dodania widgetu.
-
-
+Publiczne repozytorium zawiera opis, grafiki i wydania aplikacji. Kod źródłowy jest przechowywany prywatnie. [Informacje o składnikach i licencjach](THIRD_PARTY_NOTICES.md).
