@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.19.1 — Czort bez mrugania
+
+- Usunięta animacja mrugania ze wszystkich sześciu figurek Czorta.
+- Oryginalny wygląd obu oczu bez rysowania powiek i nakładek.
+- Zachowane grafiki, pozycje, grawer i pozostałe efekty kolekcji.
+
 ## 0.19.0 — Nowe powitanie gracza i psotnego kota
 
 - Nowa ilustracja dostarczona przez autora, z zachowaną przezroczystością i jakością oryginału.
@@ -341,6 +347,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 
