@@ -19,7 +19,7 @@ ARCADE zamienia listę gier w przestrzenną kolekcję pudełek na półkach. Ust
 
 <img src="docs/screenshots/czort-collection.png" alt="Widget ARCADE w motywie Gaming Night Shift — ciemna szafka, podświetlenie i pudełka gier Steam" width="650">
 
-## 0.18.1 — usunięcie kociej serii inspirowanej grami
+## 0.19.0 — usunięcie kociej serii inspirowanej grami
 
 - Usunięte figurki Zephyr, Sora, Nyx, Brim, Kai, Luna, Mori, Pix, Neko i Vyra z menu, katalogu, animacji i paczki aplikacji.
 - Pozostają realistyczny Czort w sześciu pozach oraz sześciu szczurzych antybohaterów.
@@ -179,7 +179,7 @@ Na półce pozostaje jeden widok: **grzbiety z tytułami**. Widok okładek przod
 
 ## Instalator i Aurora Circuit
 
-Pobierz **ARCADE-Setup-0.18.1-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
+Pobierz **ARCADE-Setup-0.19.0-win-x64.exe** z najnowszego wydania. Polski instalator dodaje skróty i wpis do odinstalowania; nie wymaga konta administratora. Opcjonalnie włącza start z Windows.
 
 **Aurora Circuit** to czwarty motyw: ruchome światło zorzy, delikatne cząsteczki, obwody oraz sygnały LED na półkach. Włączysz go przez **ikonę obok zegara → Motyw graficzny → Animowany · Aurora Circuit**. Animacje respektują systemowe ograniczenie ruchu i pauzują po ukryciu okna.
 
@@ -206,12 +206,12 @@ Większe pudełka i dopasowane do długości tytułów napisy. Przeciągnij gór
 
 ## Pobierz i uruchom
 
-1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.18.1-win-x64.exe**.
+1. Przejdź do **[Releases](https://github.com/codewojcik-arch/arcade-game-shelf/releases/latest)** i pobierz **ARCADE-Setup-0.19.0-win-x64.exe**.
 2. Uruchom instalator, wybierz folder i opcjonalne skróty oraz autostart.
 3. Po instalacji uruchom **ARCADE** z menu Start lub pulpitu.
 4. Ustawienia, motywy, figurki i zamknięcie znajdziesz pod ikoną obok zegara Windows.
 
-Alternatywnie pobierz **ARCADE-0.18.1-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
+Alternatywnie pobierz **ARCADE-0.19.0-win-x64.zip**, wypakuj cały folder i uruchom ARCADE.exe. Samo EXE wymaga pozostałych plików paczki. Instalator zachowuje lokalny folder cache podczas aktualizacji i odinstalowania; może zawierać ustawienia oraz zapisane połączenie Steam i sesję GOG. Możesz usunąć ten folder samodzielnie po odinstalowaniu.
 
 **Wymagania:** Windows 10/11 64-bit, Steam i internet do pobrania okładek. Runtime jest dołączony — nie instalujesz osobno Node.js. Okna Full HD, 1440p i 4K są objęte testami układu. Instalator nie ma jeszcze komercyjnego podpisu cyfrowego; Windows może pokazać nieznanego wydawcę. Pobieraj z oficjalnego repozytorium.
 
@@ -281,3 +281,4 @@ Obudowa zegara i tarcza automatycznie dopasowują materiały oraz kolory do moty
 
 
 Monitor systemu również automatycznie dopasowuje obudowę, tarcze, napisy i kolory wykresów do aktywnego motywu półki. Zmiana stylu nie wymaga restartu ani ponownego dodania widgetu.
+

@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.19.0 — Nowe powitanie gracza i psotnego kota
+
+- Nowa ilustracja dostarczona przez autora, z zachowaną przezroczystością i jakością oryginału.
+- Delikatne kołysanie postaci i zabawny dymek kota, bez deformacji twarzy i łap.
+- Poprzednia grafika i animacja zbliżenia usunięte. Instalator sprząta stary plik powitalny.
+- Powitanie tylko przy starcie aplikacji, raz na uruchomienie, z możliwością pominięcia.
+- Wydanie zawiera też dopasowanie monitora systemu do wszystkich pięciu motywów półki.
+
 ## 0.18.1 — Monitor dopasowany do motywu półki
 
 - Monitor automatycznie przejmuje styl aktywnej półki: Klasyczny, Orzech i mosiądz, Night Shift, Aurora Circuit i Szlak Wilka.
@@ -333,6 +341,7 @@ Testy: import wielostronicowy, ukryte gry, zmiana konta, tryb offline, sprawdzen
 - Animacja pudełka, płyty i napędu PC z lat 90.
 - Kot i szczur, dodatkowe pozy, spacer i strącanie pudełka łapką.
 - Autostart, zapis układu, menu w zasobniku i podpis autora.
+
 
 
 
