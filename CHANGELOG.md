@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.20.1 — Wsparcie i społeczność
+
+- Przycisk BuyCoffee w oknie „O aplikacji”. Cała aplikacja jest darmowa, a wsparcie całkowicie dobrowolne.
+- Discord do pytań, zgłaszania błędów i propozycji zmian.
+- Przyciski dopasowane do motywu półki, otwierane w przeglądarce systemowej.
+
 ## 0.20.0 — Cztery realistyczne motywy
 
 - Zachowany dotychczasowy Orzech i mosiądz oraz trzy nowe materiały: Atelier (ciemny orzech), Nordic (jasny dąb i aluminium), Obsidian (czarny dąb i grafit).
