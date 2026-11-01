@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 0.21.0 — Ochrona OLED
+
+- Opcjonalna ochrona OLED w menu obok zegara Windows.
+- Przygaszanie po 2 minutach bezczynności i opcjonalne ukrywanie po 10 minutach.
+- Powrót do jasności po ruchu myszy nad półką lub interakcji z aplikacją.
+- Delikatne przesuwanie obrazu o maksymalnie 2 piksele, bez zmiany układu kolekcji.
+- Tryb domyślnie wyłączony; ustawienia są zapamiętywane. Ogranicza statyczną ekspozycję, nie gwarantuje zapobiegania wypaleniu panelu.
+
 ## 0.20.1 — Wsparcie i społeczność
 
 - Przycisk BuyCoffee w oknie „O aplikacji”. Cała aplikacja jest darmowa, a wsparcie całkowicie dobrowolne.

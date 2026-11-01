@@ -4,7 +4,7 @@
 
 Biblioteka Steam i GOG jako przestrzenna półka na pulpicie Windows. Pudełka ustawiasz po swojemu, figurki zdobią regał, a zegar i monitor komputera stoją obok gier.
 
-**[Pobierz instalator ARCADE 0.20.1](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.20.1/ARCADE-Setup-0.20.1-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.20.1/ARCADE-0.20.1-win-x64.zip) · [Historia zmian](CHANGELOG.md)
+**[Pobierz instalator ARCADE 0.21.0](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.21.0/ARCADE-Setup-0.21.0-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.21.0/ARCADE-0.21.0-win-x64.zip) · [Historia zmian](CHANGELOG.md)
 
 ## Pytania i propozycje zmian
 
@@ -13,6 +13,10 @@ Biblioteka Steam i GOG jako przestrzenna półka na pulpicie Windows. Pudełka u
 ## Dobrowolne wsparcie
 
 Cała aplikacja ARCADE jest darmowa. Jeśli chcesz, możesz dobrowolnie wesprzeć jej rozwój: [☕ Postaw kawę autorowi](https://buycoffee.to/powiedzmiszczerze). Przycisk znajdziesz również w oknie „O aplikacji”, po kliknięciu podpisu autora na półce.
+
+## Ochrona OLED
+
+W menu ARCADE obok zegara Windows można włączyć ochronę OLED: przygaszanie po 2 minutach bezczynności, delikatne przesuwanie obrazu oraz opcjonalne ukrywanie po 10 minutach. Ruch myszy nad półką przywraca jasność. Ustawienia są zapamiętywane; ochrona domyślnie jest wyłączona. Funkcja ogranicza statyczną ekspozycję, ale nie gwarantuje zapobiegania wypaleniu.
 
 ## Cztery realistyczne motywy
 
@@ -70,7 +74,7 @@ Nowa ilustracja gracza i psotnego kota wita po uruchomieniu ARCADE: lekkie koły
 
 ## Instalacja i obsługa
 
-1. Pobierz **ARCADE-Setup-0.20.1-win-x64.exe** z sekcji Releases i uruchom instalator.
+1. Pobierz **ARCADE-Setup-0.21.0-win-x64.exe** z sekcji Releases i uruchom instalator.
 2. Przy aktualizacji wybierz dotychczasowy folder aplikacji. Ustawienia pozostają zachowane.
 3. Steruj aplikacją z jej ikony obok zegara Windows. Tam zmienisz motyw, widoczność kolekcji, autostart i sprawdzisz aktualizacje.
 
