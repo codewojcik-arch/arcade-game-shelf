@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.22.0 — Wukong · Małpi Król
+
+- Sześć nowych figurek: Król, Czujność, Podniebny skok, Medytacja, Wędrowiec i Gniew.
+- Osobne, ostre rendery PNG 1024 × 1536 z przezroczystym tłem i realistycznymi detalami zbroi, futra i kamiennych podstaw.
+- Imię WUKONG na podstawach, indywidualny wybór i przeciąganie między półkami.
+- Zachowane figurki Czorta i szczurzych antybohaterów oraz ich zapisane ustawienia.
+
 ## 0.21.0 — Ochrona OLED
 
 - Opcjonalna ochrona OLED w menu obok zegara Windows.
