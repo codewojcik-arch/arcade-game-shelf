@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.23.0 — Autorska zbroja Kamiennego Strażnika
+
+- Przeprojektowane wszystkie sześć figurek: matowa stal, miedziane okucia, geometryczne ornamenty skalne i tkaniny w kolorze petrolu.
+- Nowy kostur z bazaltowymi okuciami i zmienione dodatki.
+- Usunięte dawne złote smocze ornamenty i bordowe szaty.
+- Zachowane indywidualne pozy, grawer, widoczność i zapisane ustawienie każdej figurki.
+
 ## 0.22.1 — Kamienny Strażnik
 
 - Nowa nazwa kolekcji: Kamienny Strażnik.
