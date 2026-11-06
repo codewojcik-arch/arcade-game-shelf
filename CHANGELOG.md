@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.22.1 — Kamienny Strażnik
+
+- Nowa nazwa kolekcji: Kamienny Strażnik.
+- Zmienione napisy na podstawkach i w menu, z dopasowaną wielkością graweru.
+- Zachowane wszystkie sześć wariantów oraz zapisane pozycje i widoczność figurek.
+
 ## 0.22.0 — Wukong · Małpi Król
 
 - Sześć nowych figurek: Król, Czujność, Podniebny skok, Medytacja, Wędrowiec i Gniew.
