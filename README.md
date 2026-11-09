@@ -4,7 +4,7 @@
 
 Biblioteka Steam i GOG jako przestrzenna półka na pulpicie Windows. Pudełka ustawiasz po swojemu, figurki zdobią regał, a zegar i monitor komputera stoją obok gier.
 
-**[Pobierz instalator ARCADE 0.23.0](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.23.0/ARCADE-Setup-0.23.0-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.23.0/ARCADE-0.23.0-win-x64.zip) · [Historia zmian](CHANGELOG.md)
+**[Pobierz instalator ARCADE 0.24.0](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.24.0/ARCADE-Setup-0.24.0-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.24.0/ARCADE-0.24.0-win-x64.zip) · [Historia zmian](CHANGELOG.md)
 
 ## Pytania i propozycje zmian
 
@@ -13,6 +13,10 @@ Biblioteka Steam i GOG jako przestrzenna półka na pulpicie Windows. Pudełka u
 ## Dobrowolne wsparcie
 
 Cała aplikacja ARCADE jest darmowa. Jeśli chcesz, możesz dobrowolnie wesprzeć jej rozwój: [☕ Postaw kawę autorowi](https://buycoffee.to/powiedzmiszczerze). Przycisk znajdziesz również w oknie „O aplikacji”, po kliknięciu podpisu autora na półce.
+
+## Statuetka rangi VALORANT
+
+Kliknij prawym przyciskiem ikonę ARCADE obok zegara Windows i wybierz **Statuetka rangi VALORANT**. Po zmianie rangi w grze ustaw ją w tym samym menu. Trofeum ma kolor i animację przypisane do wybranej rangi, a przeciągnięcie za podstawę zapisuje pozycję na półce.
 
 ## Kamienny Strażnik
 
@@ -80,7 +84,7 @@ Nowa ilustracja gracza i psotnego kota wita po uruchomieniu ARCADE: lekkie koły
 
 ## Instalacja i obsługa
 
-1. Pobierz **ARCADE-Setup-0.23.0-win-x64.exe** z sekcji Releases i uruchom instalator.
+1. Pobierz **ARCADE-Setup-0.24.0-win-x64.exe** z sekcji Releases i uruchom instalator.
 2. Przy aktualizacji wybierz dotychczasowy folder aplikacji. Ustawienia pozostają zachowane.
 3. Steruj aplikacją z jej ikony obok zegara Windows. Tam zmienisz motyw, widoczność kolekcji, autostart i sprawdzisz aktualizacje.
 

@@ -1,5 +1,12 @@
 # Historia zmian
 
+## 0.24.0 — Statuetka rangi VALORANT
+
+- Wybierz rangę ręcznie z menu ARCADE obok zegara Windows.
+- Przestawiaj statuetkę za podstawę. ARCADE pamięta jej pozycję i wybraną rangę.
+- Autorski render trofeum 3D z kryształem w kolorze rangi i oznaczeniem poziomu.
+- Wraz z rangą przybywa iskier, fal i orbit. Radiant ma trzy orbity oraz własny rozbłysk.
+
 ## 0.23.0 — Autorska zbroja Kamiennego Strażnika
 
 - Przeprojektowane wszystkie sześć figurek: matowa stal, miedziane okucia, geometryczne ornamenty skalne i tkaniny w kolorze petrolu.
