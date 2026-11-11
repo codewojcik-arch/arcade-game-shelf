@@ -1,5 +1,11 @@
 # Historia zmian
 
+## 0.25.0 — Zegar arcade i skalowanie półki
+
+- Zegar w obudowie automatu z pikselową godziną, neonowymi listwami, datą i animacją zmiany minuty zastępuje zegar wskazówkowy.
+- Figurki, statuetka rangi, zegar i monitor komputera dzielą dostępną szerokość półki i zmieniają rozmiar wraz z oknem.
+- Półka dopasowuje się do obszaru roboczego mniejszego monitora po przeniesieniu lub zmianie konfiguracji ekranów.
+
 ## 0.24.0 — Statuetka rangi VALORANT
 
 - Wybierz rangę ręcznie z menu ARCADE obok zegara Windows.

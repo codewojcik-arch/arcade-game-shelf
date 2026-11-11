@@ -4,7 +4,7 @@
 
 Biblioteka Steam i GOG jako przestrzenna półka na pulpicie Windows. Pudełka ustawiasz po swojemu, figurki zdobią regał, a zegar i monitor komputera stoją obok gier.
 
-**[Pobierz instalator ARCADE 0.24.0](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.24.0/ARCADE-Setup-0.24.0-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.24.0/ARCADE-0.24.0-win-x64.zip) · [Historia zmian](CHANGELOG.md)
+**[Pobierz instalator ARCADE 0.25.0](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.25.0/ARCADE-Setup-0.25.0-win-x64.exe)** · [Wersja ZIP](https://github.com/codewojcik-arch/arcade-game-shelf/releases/download/v0.25.0/ARCADE-0.25.0-win-x64.zip) · [Historia zmian](CHANGELOG.md)
 
 ## Pytania i propozycje zmian
 
@@ -66,7 +66,7 @@ Dotychczasowe motywy Klasyczny, Night Shift, Aurora i Szlak Wilka zostały usuni
 
 Włącz **Zegar na półce** lub **Monitor komputera → Pokaż monitor** w menu obok zegara systemowego. Oba widgety przeciągniesz za górny pasek na inną półkę. Pozycje i widoczność są zapamiętywane; instrumenty dopasowują się do dostępnego miejsca.
 
-Zegar pokazuje wskazówki z płynnym sekundnikiem, cyfrową godzinę, polską datę i strefę Windows. Monitor prezentuje rzeczywiste obciążenie CPU, wykorzystanie RAM, czas pracy PC i zajętość wybranego dysku.
+Zegar arcade pokazuje lokalną godzinę pikselowymi cyframi, polską datę i postęp minuty. Neonowe listwy otaczają ekran, a cyfry przeskakują przy zmianie minuty. Monitor prezentuje rzeczywiste obciążenie CPU, wykorzystanie RAM, czas pracy PC i zajętość wybranego dysku.
 
 Panel **DYSKI** wykrywa dostępne lokalne woluminy Windows, np. C: i D:, oraz podłączone dyski USB. Pokazuje zajęte i wolne GB oraz pojemność. Zapamiętuje wybrany dysk, odświeża dane co 10 sekund i ma przycisk ręcznego odświeżania. Monitor działa bez dodatkowych programów do czujników.
 
@@ -84,7 +84,7 @@ Nowa ilustracja gracza i psotnego kota wita po uruchomieniu ARCADE: lekkie koły
 
 ## Instalacja i obsługa
 
-1. Pobierz **ARCADE-Setup-0.24.0-win-x64.exe** z sekcji Releases i uruchom instalator.
+1. Pobierz **ARCADE-Setup-0.25.0-win-x64.exe** z sekcji Releases i uruchom instalator.
 2. Przy aktualizacji wybierz dotychczasowy folder aplikacji. Ustawienia pozostają zachowane.
 3. Steruj aplikacją z jej ikony obok zegara Windows. Tam zmienisz motyw, widoczność kolekcji, autostart i sprawdzisz aktualizacje.
 
